@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="2593px" preserveAspectRatio="none" style="width:3758px;height:2593px;background:#FFFFFF;" version="1.1" viewBox="0 0 3758 2593" width="3758px" zoomAndPan="magnify"><defs><filter height="300%" id="f8j4nqycpsbbf" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[2958fbf0cf116a17b62fd82d2560c2cb]
+cluster clnt--><polygon fill="#FFFFFF" filter="url(#f8j4nqycpsbbf)" points="1260.5,400,1295.5,400,1302.5,422.2969,1522.5,422.2969,1522.5,627,1260.5,627,1260.5,400" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1260.5" x2="1302.5" y1="422.2969" y2="422.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="29" x="1264.5" y="414.9951">clnt</text><!--MD5=[72fae8e1779ba7dedab19f6352fd74e8]
+cluster parser--><polygon fill="#FFFFFF" filter="url(#f8j4nqycpsbbf)" points="1902.5,6,1960.5,6,1967.5,28.2969,3741.5,28.2969,3741.5,1481,1902.5,1481,1902.5,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1902.5" x2="1967.5" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="1906.5" y="20.9951">parser</text><!--MD5=[b6e572006dbb8b0f8a1ba9680d075f22]
+cluster parser.parser::config--><polygon fill="#FFFFFF" filter="url(#f8j4nqycpsbbf)" points="3149.5,55.5,3268.5,55.5,3275.5,77.7969,3717.5,77.7969,3717.5,1457,3149.5,1457,3149.5,55.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="3149.5" x2="3275.5" y1="77.7969" y2="77.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="113" x="3153.5" y="70.4951">parser::config</text><!--MD5=[95a29eb3a89a4bc4d7ac2991752bde1e]
+cluster parser.parser::http--><polygon fill="#FFFFFF" filter="url(#f8j4nqycpsbbf)" points="2059.5,49,2161.5,49,2168.5,71.2969,3125.5,71.2969,3125.5,276,2059.5,276,2059.5,49" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="2059.5" x2="2168.5" y1="71.2969" y2="71.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="96" x="2063.5" y="63.9951">parser::http</text><!--MD5=[66b8634aa6783c47ab7e2fafd66a99d7]
+cluster sckt--><polygon fill="#FFFFFF" filter="url(#f8j4nqycpsbbf)" points="1408.5,699.5,1447.5,699.5,1454.5,721.7969,1738.5,721.7969,1738.5,952.5,1408.5,952.5,1408.5,699.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1408.5" x2="1454.5" y1="721.7969" y2="721.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="33" x="1412.5" y="714.4951">sckt</text><!--MD5=[a87a15c13a8fdb5d9aefbbee89df4b1b]
+class clnt.Client--><rect codeLine="279" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="176.0469" id="clnt.Client" style="stroke:#A80036;stroke-width:1.5;" width="230" x="1276.5" y="435"/><ellipse cx="1369.75" cy="451" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1372.7188,456.6406 Q1372.1406,456.9375 1371.5,457.0781 Q1370.8594,457.2344 1370.1563,457.2344 Q1367.6563,457.2344 1366.3281,455.5938 Q1365.0156,453.9375 1365.0156,450.8125 Q1365.0156,447.6875 1366.3281,446.0313 Q1367.6563,444.375 1370.1563,444.375 Q1370.8594,444.375 1371.5,444.5313 Q1372.1563,444.6875 1372.7188,444.9844 L1372.7188,447.7031 Q1372.0938,447.125 1371.5,446.8594 Q1370.9063,446.5781 1370.2813,446.5781 Q1368.9375,446.5781 1368.25,447.6563 Q1367.5625,448.7188 1367.5625,450.8125 Q1367.5625,452.9063 1368.25,453.9844 Q1368.9375,455.0469 1370.2813,455.0469 Q1370.9063,455.0469 1371.5,454.7813 Q1372.0938,454.5 1372.7188,453.9219 L1372.7188,456.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="35" x="1390.25" y="455.1543">Client</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1277.5" x2="1505.5" y1="467" y2="467"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1284.5" y="475"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="1296.5" y="481.2104">_socket : sckt::Socket</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1284.5" y="487.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="1296.5" y="494.0151">_pfd : struct pollfd</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1277.5" x2="1505.5" y1="500.6094" y2="500.6094"/><ellipse cx="1287.5" cy="511.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="1296.5" y="514.8198">Client()</text><ellipse cx="1287.5" cy="524.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="49" x="1296.5" y="527.6245">~Client()</text><ellipse cx="1287.5" cy="537.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="201" x="1296.5" y="540.4292">getAddr() : sckt::addr_type {query}</text><ellipse cx="1287.5" cy="550.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="173" x="1296.5" y="553.2339">getFd() : sckt::fd_type {query}</text><ellipse cx="1287.5" cy="562.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="174" x="1296.5" y="566.0386">getPfd() : struct pollfd {query}</text><ellipse cx="1287.5" cy="575.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="204" x="1296.5" y="578.8433">setAddr(sckt::addr_type addr) : void</text><ellipse cx="1287.5" cy="588.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="161" x="1296.5" y="591.6479">setFd(sckt::fd_type fd) : void</text><ellipse cx="1287.5" cy="601.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="1296.5" y="604.4526">setPfd() : void</text><!--MD5=[03653400ed6ccc44e236f77c5d24f176]
+class parser.IScanner--><rect codeLine="295" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="137.6328" id="parser.IScanner" style="stroke:#A80036;stroke-width:1.5;" width="121" x="1919" y="103"/><ellipse cx="1948.85" cy="119" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1948.9594,114.3438 L1947.8031,119.4219 L1950.1313,119.4219 L1948.9594,114.3438 Z M1947.475,112.1094 L1950.4594,112.1094 L1953.8188,124.5 L1951.3656,124.5 L1950.6,121.4375 L1947.3188,121.4375 L1946.5688,124.5 L1944.1313,124.5 L1947.475,112.1094 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="56" x="1966.15" y="123.1543">IScanner</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1920" x2="2039" y1="135" y2="135"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1920" x2="2039" y1="143" y2="143"/><ellipse cx="1930" cy="154" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="1939" y="157.2104">~IScanner()</text><ellipse cx="1930" cy="166.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="62" x="1939" y="170.0151">eof() : bool</text><ellipse cx="1930" cy="179.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="63" x="1939" y="182.8198">get() : char</text><ellipse cx="1930" cy="192.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="72" x="1939" y="195.6245">peek() : char</text><ellipse cx="1930" cy="205.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="77" x="1939" y="208.4292">unget() : char</text><ellipse cx="1930" cy="218.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="95" x="1939" y="221.2339">getColumn() : int</text><ellipse cx="1930" cy="230.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="75" x="1939" y="234.0386">getLine() : int</text><!--MD5=[03a3e5cf65a4250f2ddeffa42169cd18]
+class parser.Scanner--><rect codeLine="305" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="252.875" id="parser.Scanner" style="stroke:#A80036;stroke-width:1.5;" width="235" x="2780" y="396.5"/><ellipse cx="2867.25" cy="412.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2870.2188,418.1406 Q2869.6406,418.4375 2869,418.5781 Q2868.3594,418.7344 2867.6563,418.7344 Q2865.1563,418.7344 2863.8281,417.0938 Q2862.5156,415.4375 2862.5156,412.3125 Q2862.5156,409.1875 2863.8281,407.5313 Q2865.1563,405.875 2867.6563,405.875 Q2868.3594,405.875 2869,406.0313 Q2869.6563,406.1875 2870.2188,406.4844 L2870.2188,409.2031 Q2869.5938,408.625 2869,408.3594 Q2868.4063,408.0781 2867.7813,408.0781 Q2866.4375,408.0781 2865.75,409.1563 Q2865.0625,410.2188 2865.0625,412.3125 Q2865.0625,414.4063 2865.75,415.4844 Q2866.4375,416.5469 2867.7813,416.5469 Q2868.4063,416.5469 2869,416.2813 Q2869.5938,416 2870.2188,415.4219 L2870.2188,418.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="2887.75" y="416.6543">Scanner</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2781" x2="3014" y1="428.5" y2="428.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2788" y="436.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="49" x="2800" y="442.7104">_c : char</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2788" y="449.3047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="2800" y="455.5151">_column : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2788" y="462.1094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="2800" y="468.3198">_lastColumn : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2788" y="474.9141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="2800" y="481.1245">_line : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2788" y="487.7188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="2800" y="493.9292">_inStream : std::istream&amp;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2781" x2="3014" y1="500.5234" y2="500.5234"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2788" y="508.5234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="2800" y="514.7339">Scanner()</text><ellipse cx="2791" cy="524.3281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="209" x="2800" y="527.5386">Scanner(std::istream&amp; inputStream)</text><ellipse cx="2791" cy="537.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="64" x="2800" y="540.3433">~Scanner()</text><ellipse cx="2791" cy="549.9375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="2800" y="553.1479">eof() : bool</text><ellipse cx="2791" cy="562.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="2800" y="565.9526">get() : char</text><ellipse cx="2791" cy="575.5469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="2800" y="578.7573">peek() : char</text><ellipse cx="2791" cy="588.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="2800" y="591.562">unget() : char</text><ellipse cx="2791" cy="601.1563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="2800" y="604.3667">getColumn() : int</text><ellipse cx="2791" cy="613.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="2800" y="617.1714">getLine() : int</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2788" y="623.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="2800" y="629.9761">moveBackward() : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2788" y="636.5703"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="2800" y="642.7808">moveForward() : void</text><!--MD5=[0d9ebab3398b7f12da4049a59f1f340d]
+class parser.ScannerFD--><rect codeLine="324" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="291.2891" id="parser.ScannerFD" style="stroke:#A80036;stroke-width:1.5;" width="197" x="1919" y="377.5"/><ellipse cx="1979.25" cy="393.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1982.2188,399.1406 Q1981.6406,399.4375 1981,399.5781 Q1980.3594,399.7344 1979.6563,399.7344 Q1977.1563,399.7344 1975.8281,398.0938 Q1974.5156,396.4375 1974.5156,393.3125 Q1974.5156,390.1875 1975.8281,388.5313 Q1977.1563,386.875 1979.6563,386.875 Q1980.3594,386.875 1981,387.0313 Q1981.6563,387.1875 1982.2188,387.4844 L1982.2188,390.2031 Q1981.5938,389.625 1981,389.3594 Q1980.4063,389.0781 1979.7813,389.0781 Q1978.4375,389.0781 1977.75,390.1563 Q1977.0625,391.2188 1977.0625,393.3125 Q1977.0625,395.4063 1977.75,396.4844 Q1978.4375,397.5469 1979.7813,397.5469 Q1980.4063,397.5469 1981,397.2813 Q1981.5938,397 1982.2188,396.4219 L1982.2188,399.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="68" x="1999.75" y="397.6543">ScannerFD</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1920" x2="2115" y1="409.5" y2="409.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1927" y="417.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="1939" y="423.7104">_buffer : char</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1927" y="430.3047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="49" x="1939" y="436.5151">_c : char</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1927" y="443.1094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="1939" y="449.3198">_column : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1927" y="455.9141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="1939" y="462.1245">_fd : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1927" y="468.7188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="1939" y="474.9292">_lastColumn : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1927" y="481.5234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="1939" y="487.7339">_line : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1927" y="494.3281"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="66" x="1939" y="500.5386">_idx : size_t</text><ellipse cx="1930" cy="510.1328" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="171" x="1939" y="513.3433">bufferSize : static const size_t</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1920" x2="2115" y1="519.9375" y2="519.9375"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1927" y="527.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="1939" y="534.1479">ScannerFD()</text><ellipse cx="1930" cy="543.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="1939" y="546.9526">ScannerFD(int fd)</text><ellipse cx="1930" cy="556.5469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="1939" y="559.7573">~ScannerFD()</text><ellipse cx="1930" cy="569.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="1939" y="572.562">eof() : bool</text><ellipse cx="1930" cy="582.1563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="1939" y="585.3667">get() : char</text><ellipse cx="1930" cy="594.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="1939" y="598.1714">peek() : char</text><ellipse cx="1930" cy="607.7656" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="1939" y="610.9761">unget() : char</text><ellipse cx="1930" cy="620.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="1939" y="623.7808">getColumn() : int</text><ellipse cx="1930" cy="633.375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="1939" y="636.5854">getLine() : int</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1927" y="643.1797"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="1939" y="649.3901">moveBackward() : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1927" y="655.9844"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="1939" y="662.1948">moveForward() : void</text><!--MD5=[30e7f62f9009e929c026e8aff2b59e1f]
+class parser.parser::config.ScannerConfig--><rect codeLine="347" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="163.2422" id="parser.parser::config.ScannerConfig" style="stroke:#A80036;stroke-width:1.5;" width="536" x="3165.5" y="90.5"/><ellipse cx="3383.75" cy="106.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3386.7188,112.1406 Q3386.1406,112.4375 3385.5,112.5781 Q3384.8594,112.7344 3384.1563,112.7344 Q3381.6563,112.7344 3380.3281,111.0938 Q3379.0156,109.4375 3379.0156,106.3125 Q3379.0156,103.1875 3380.3281,101.5313 Q3381.6563,99.875 3384.1563,99.875 Q3384.8594,99.875 3385.5,100.0313 Q3386.1563,100.1875 3386.7188,100.4844 L3386.7188,103.2031 Q3386.0938,102.625 3385.5,102.3594 Q3384.9063,102.0781 3384.2813,102.0781 Q3382.9375,102.0781 3382.25,103.1563 Q3381.5625,104.2188 3381.5625,106.3125 Q3381.5625,108.4063 3382.25,109.4844 Q3382.9375,110.5469 3384.2813,110.5469 Q3384.9063,110.5469 3385.5,110.2813 Q3386.0938,110 3386.7188,109.4219 L3386.7188,112.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="91" x="3404.25" y="110.6543">ScannerConfig</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3166.5" x2="3700.5" y1="122.5" y2="122.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="3173.5" y="130.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="3185.5" y="136.7104">_scan : Scanner</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="3173.5" y="143.3047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="3185.5" y="149.5151">_actualToken : Token</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3166.5" x2="3700.5" y1="156.1094" y2="156.1094"/><ellipse cx="3176.5" cy="167.1094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="245" x="3185.5" y="170.3198">ScannerConfig(std::istream&amp; inputStream)</text><ellipse cx="3176.5" cy="179.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="100" x="3185.5" y="183.1245">~ScannerConfig()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="3173.5" y="189.7188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="397" x="3185.5" y="195.9292">_makeToken(ScopedEnum ::TokenKind kind, std::string value) : Token</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="3173.5" y="202.5234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="510" x="3185.5" y="208.7339">_makeToken(ScopedEnum ::TokenKind kind, std::string value, int column, int line) : Token</text><ellipse cx="3176.5" cy="218.3281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="171" x="3185.5" y="221.5386">getToken(bool skipNL) : Token</text><ellipse cx="3176.5" cy="231.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="3185.5" y="234.3433">peekToken() : Token</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="3173.5" y="240.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="154" x="3185.5" y="247.1479">_charIsString(char c) : bool</text><!--MD5=[414e3cf37ce236621db0971e48441e71]
+class parser.parser::config.ScopedEnum::TokenKind--><rect codeLine="359" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="176.0469" id="parser.parser::config.ScopedEnum::TokenKind" style="stroke:#A80036;stroke-width:1.5;" width="186" x="3169.5" y="1265"/><ellipse cx="3184.5" cy="1281" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3188.6094,1287 L3180.8906,1287 L3180.8906,1274.6094 L3188.6094,1274.6094 L3188.6094,1276.7656 L3183.3438,1276.7656 L3183.3438,1279.4375 L3188.1094,1279.4375 L3188.1094,1281.5938 L3183.3438,1281.5938 L3183.3438,1284.8438 L3188.6094,1284.8438 L3188.6094,1287 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="154" x="3198.5" y="1285.1543">ScopedEnum::TokenKind</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3170.5" x2="3354.5" y1="1297" y2="1297"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="38" x="3175.5" y="1311.2104">kColon</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="50" x="3175.5" y="1324.0151">kComma</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="3175.5" y="1336.8198">kEndOfInput</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="3175.5" y="1349.6245">kError</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="3175.5" y="1362.4292">kIdentifier</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="3175.5" y="1375.2339">kLeftBrace</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="3175.5" y="1388.0386">kNewLine</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="3175.5" y="1400.8433">kRightBrace</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="3175.5" y="1413.6479">kSemiColon</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="3175.5" y="1426.4526">kString</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3170.5" x2="3354.5" y1="1433.0469" y2="1433.0469"/><!--MD5=[f056ec1984d87fce166951b9db0e507b]
+class parser.parser::config.ScopedEnum--><rect codeLine="372" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="48" id="parser.parser::config.ScopedEnum" style="stroke:#A80036;stroke-width:1.5;" width="114" x="3205.5" y="811.5"/><ellipse cx="3220.5" cy="827.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3223.4688,833.1406 Q3222.8906,833.4375 3222.25,833.5781 Q3221.6094,833.7344 3220.9063,833.7344 Q3218.4063,833.7344 3217.0781,832.0938 Q3215.7656,830.4375 3215.7656,827.3125 Q3215.7656,824.1875 3217.0781,822.5313 Q3218.4063,820.875 3220.9063,820.875 Q3221.6094,820.875 3222.25,821.0313 Q3222.9063,821.1875 3223.4688,821.4844 L3223.4688,824.2031 Q3222.8438,823.625 3222.25,823.3594 Q3221.6563,823.0781 3221.0313,823.0781 Q3219.6875,823.0781 3219,824.1563 Q3218.3125,825.2188 3218.3125,827.3125 Q3218.3125,829.4063 3219,830.4844 Q3219.6875,831.5469 3221.0313,831.5469 Q3221.6563,831.5469 3222.25,831.2813 Q3222.8438,831 3223.4688,830.4219 L3223.4688,833.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="82" x="3234.5" y="831.6543">ScopedEnum</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3206.5" x2="3318.5" y1="843.5" y2="843.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="3206.5" x2="3318.5" y1="851.5" y2="851.5"/><!--MD5=[cbe65f012fdf0df50fe8a9a5af60c7b6]
+class parser.parser::config.Token--><rect codeLine="375" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="99.2188" id="parser.parser::config.Token" style="stroke:#A80036;stroke-width:1.5;" width="205" x="3165" y="473.5"/><ellipse cx="3244.25" cy="489.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M3247.2188,495.1406 Q3246.6406,495.4375 3246,495.5781 Q3245.3594,495.7344 3244.6563,495.7344 Q3242.1563,495.7344 3240.8281,494.0938 Q3239.5156,492.4375 3239.5156,489.3125 Q3239.5156,486.1875 3240.8281,484.5313 Q3242.1563,482.875 3244.6563,482.875 Q3245.3594,482.875 3246,483.0313 Q3246.6563,483.1875 3247.2188,483.4844 L3247.2188,486.2031 Q3246.5938,485.625 3246,485.3594 Q3245.4063,485.0781 3244.7813,485.0781 Q3243.4375,485.0781 3242.75,486.1563 Q3242.0625,487.2188 3242.0625,489.3125 Q3242.0625,491.4063 3242.75,492.4844 Q3243.4375,493.5469 3244.7813,493.5469 Q3245.4063,493.5469 3246,493.2813 Q3246.5938,493 3247.2188,492.4219 L3247.2188,495.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="3264.75" y="493.6543">Token</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3166" x2="3369" y1="505.5" y2="505.5"/><ellipse cx="3176" cy="516.5" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="179" x="3185" y="519.7104">kind : ScopedEnum ::TokenKind</text><ellipse cx="3176" cy="529.3047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="3185" y="532.5151">column : int</text><ellipse cx="3176" cy="542.1094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="3185" y="545.3198">line : int</text><ellipse cx="3176" cy="554.9141" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="3185" y="558.1245">value : std::string</text><line style="stroke:#A80036;stroke-width:1.5;" x1="3166" x2="3369" y1="564.7188" y2="564.7188"/><!--MD5=[72561c5925aa6377ecddb603ff726ebb]
+class parser.parser::http.ScannerHttpRequest--><rect codeLine="384" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="163.2422" id="parser.parser::http.ScannerHttpRequest" style="stroke:#A80036;stroke-width:1.5;" width="423" x="2686" y="90.5"/><ellipse cx="2827.75" cy="106.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2830.7188,112.1406 Q2830.1406,112.4375 2829.5,112.5781 Q2828.8594,112.7344 2828.1563,112.7344 Q2825.6563,112.7344 2824.3281,111.0938 Q2823.0156,109.4375 2823.0156,106.3125 Q2823.0156,103.1875 2824.3281,101.5313 Q2825.6563,99.875 2828.1563,99.875 Q2828.8594,99.875 2829.5,100.0313 Q2830.1563,100.1875 2830.7188,100.4844 L2830.7188,103.2031 Q2830.0938,102.625 2829.5,102.3594 Q2828.9063,102.0781 2828.2813,102.0781 Q2826.9375,102.0781 2826.25,103.1563 Q2825.5625,104.2188 2825.5625,106.3125 Q2825.5625,108.4063 2826.25,109.4844 Q2826.9375,110.5469 2828.2813,110.5469 Q2828.9063,110.5469 2829.5,110.2813 Q2830.0938,110 2830.7188,109.4219 L2830.7188,112.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="131" x="2848.25" y="110.6543">ScannerHttpRequest</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2687" x2="3108" y1="122.5" y2="122.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2694" y="130.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="2706" y="136.7104">_scan : Scanner</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2694" y="143.3047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="2706" y="149.5151">_actualToken : Token</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2687" x2="3108" y1="156.1094" y2="156.1094"/><ellipse cx="2697" cy="167.1094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="278" x="2706" y="170.3198">ScannerHttpRequest(std::istream&amp; inputStream)</text><ellipse cx="2697" cy="179.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="2706" y="183.1245">~ScannerHttpRequest()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2694" y="189.7188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="397" x="2706" y="195.9292">_makeToken(ScopedEnum ::TokenKind kind, std::string value) : Token</text><ellipse cx="2697" cy="205.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="180" x="2706" y="208.7339">getToken(bool skipLWS) : Token</text><ellipse cx="2697" cy="218.3281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="2706" y="221.5386">peekToken() : Token</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="2694" y="228.1328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="154" x="2706" y="234.3433">_charIsString(char c) : bool</text><ellipse cx="2697" cy="243.9375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="90" x="2706" y="247.1479">getChar() : char</text><!--MD5=[f349b6d239fd9f9ee251f8e3641cb7bd]
+class parser.parser::http.ScopedEnum::TokenKind--><rect codeLine="396" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="176.0469" id="parser.parser::http.ScopedEnum::TokenKind" style="stroke:#A80036;stroke-width:1.5;" width="186" x="2464.5" y="84"/><ellipse cx="2479.5" cy="100" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2483.6094,106 L2475.8906,106 L2475.8906,93.6094 L2483.6094,93.6094 L2483.6094,95.7656 L2478.3438,95.7656 L2478.3438,98.4375 L2483.1094,98.4375 L2483.1094,100.5938 L2478.3438,100.5938 L2478.3438,103.8438 L2483.6094,103.8438 L2483.6094,106 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="154" x="2493.5" y="104.1543">ScopedEnum::TokenKind</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2465.5" x2="2649.5" y1="116" y2="116"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="2470.5" y="130.2104">kCarriage</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="38" x="2470.5" y="143.0151">kColon</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="50" x="2470.5" y="155.8198">kComma</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="2470.5" y="168.6245">kEndOfInput</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="2470.5" y="181.4292">kError</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="29" x="2470.5" y="194.2339">kLWS</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="2470.5" y="207.0386">kLeftBrace</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="2470.5" y="219.8433">kNewLine</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="2470.5" y="232.6479">kRightBrace</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="2470.5" y="245.4526">kString</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2465.5" x2="2649.5" y1="252.0469" y2="252.0469"/><!--MD5=[9ebdd5bcd2a4a695d07bb1e199730f62]
+class parser.parser::http.ScopedEnum--><rect codeLine="409" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="48" id="parser.parser::http.ScopedEnum" style="stroke:#A80036;stroke-width:1.5;" width="114" x="2315.5" y="148"/><ellipse cx="2330.5" cy="164" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2333.4688,169.6406 Q2332.8906,169.9375 2332.25,170.0781 Q2331.6094,170.2344 2330.9063,170.2344 Q2328.4063,170.2344 2327.0781,168.5938 Q2325.7656,166.9375 2325.7656,163.8125 Q2325.7656,160.6875 2327.0781,159.0313 Q2328.4063,157.375 2330.9063,157.375 Q2331.6094,157.375 2332.25,157.5313 Q2332.9063,157.6875 2333.4688,157.9844 L2333.4688,160.7031 Q2332.8438,160.125 2332.25,159.8594 Q2331.6563,159.5781 2331.0313,159.5781 Q2329.6875,159.5781 2329,160.6563 Q2328.3125,161.7188 2328.3125,163.8125 Q2328.3125,165.9063 2329,166.9844 Q2329.6875,168.0469 2331.0313,168.0469 Q2331.6563,168.0469 2332.25,167.7813 Q2332.8438,167.5 2333.4688,166.9219 L2333.4688,169.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="82" x="2344.5" y="168.1543">ScopedEnum</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2316.5" x2="2428.5" y1="180" y2="180"/><line style="stroke:#A80036;stroke-width:1.5;" x1="2316.5" x2="2428.5" y1="188" y2="188"/><!--MD5=[dadf3ffcb8425e4ad7a9514e4bae5d7b]
+class parser.parser::http.Token--><rect codeLine="412" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="99.2188" id="parser.parser::http.Token" style="stroke:#A80036;stroke-width:1.5;" width="205" x="2075" y="122.5"/><ellipse cx="2154.25" cy="138.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2157.2188,144.1406 Q2156.6406,144.4375 2156,144.5781 Q2155.3594,144.7344 2154.6563,144.7344 Q2152.1563,144.7344 2150.8281,143.0938 Q2149.5156,141.4375 2149.5156,138.3125 Q2149.5156,135.1875 2150.8281,133.5313 Q2152.1563,131.875 2154.6563,131.875 Q2155.3594,131.875 2156,132.0313 Q2156.6563,132.1875 2157.2188,132.4844 L2157.2188,135.2031 Q2156.5938,134.625 2156,134.3594 Q2155.4063,134.0781 2154.7813,134.0781 Q2153.4375,134.0781 2152.75,135.1563 Q2152.0625,136.2188 2152.0625,138.3125 Q2152.0625,140.4063 2152.75,141.4844 Q2153.4375,142.5469 2154.7813,142.5469 Q2155.4063,142.5469 2156,142.2813 Q2156.5938,142 2157.2188,141.4219 L2157.2188,144.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="2174.75" y="142.6543">Token</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2076" x2="2279" y1="154.5" y2="154.5"/><ellipse cx="2086" cy="165.5" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="179" x="2095" y="168.7104">kind : ScopedEnum ::TokenKind</text><ellipse cx="2086" cy="178.3047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="2095" y="181.5151">column : int</text><ellipse cx="2086" cy="191.1094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="2095" y="194.3198">line : int</text><ellipse cx="2086" cy="203.9141" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="2095" y="207.1245">value : std::string</text><line style="stroke:#A80036;stroke-width:1.5;" x1="2076" x2="2279" y1="213.7188" y2="213.7188"/><!--MD5=[c814b2570e8b692cff8da2b2fec3e4d1]
+class sckt.Socket--><rect codeLine="423" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="201.6563" id="sckt.Socket" style="stroke:#A80036;stroke-width:1.5;" width="298" x="1424.5" y="734.5"/><ellipse cx="1547.75" cy="750.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1550.7188,756.1406 Q1550.1406,756.4375 1549.5,756.5781 Q1548.8594,756.7344 1548.1563,756.7344 Q1545.6563,756.7344 1544.3281,755.0938 Q1543.0156,753.4375 1543.0156,750.3125 Q1543.0156,747.1875 1544.3281,745.5313 Q1545.6563,743.875 1548.1563,743.875 Q1548.8594,743.875 1549.5,744.0313 Q1550.1563,744.1875 1550.7188,744.4844 L1550.7188,747.2031 Q1550.0938,746.625 1549.5,746.3594 Q1548.9063,746.0781 1548.2813,746.0781 Q1546.9375,746.0781 1546.25,747.1563 Q1545.5625,748.2188 1545.5625,750.3125 Q1545.5625,752.4063 1546.25,753.4844 Q1546.9375,754.5469 1548.2813,754.5469 Q1548.9063,754.5469 1549.5,754.2813 Q1550.0938,754 1550.7188,753.4219 L1550.7188,756.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="43" x="1568.25" y="754.6543">Socket</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1425.5" x2="1721.5" y1="766.5" y2="766.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1432.5" y="774.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="1444.5" y="780.7104">_fd : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1432.5" y="787.3047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="1444.5" y="793.5151">_addrLen : sckt::socklen_t</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1432.5" y="800.1094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="149" x="1444.5" y="806.3198">_addr : struct sockaddr_in</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1425.5" x2="1721.5" y1="812.9141" y2="812.9141"/><ellipse cx="1435.5" cy="823.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="1444.5" y="827.1245">Socket()</text><ellipse cx="1435.5" cy="836.7188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="1444.5" y="839.9292">~Socket()</text><ellipse cx="1435.5" cy="849.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="1444.5" y="852.7339">getAddrLen() : addrLen_type {query}</text><ellipse cx="1435.5" cy="862.3281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="170" x="1444.5" y="865.5386">getAddr() : addr_type {query}</text><ellipse cx="1435.5" cy="875.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="185" x="1444.5" y="878.3433">setFd(int domain, int type) : bool</text><ellipse cx="1435.5" cy="887.9375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="1444.5" y="891.1479">getFd() : fd_type {query}</text><ellipse cx="1435.5" cy="900.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="272" x="1444.5" y="903.9526">setAddr(int domain, int interface, int port) : void</text><ellipse cx="1435.5" cy="913.5469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="222" x="1444.5" y="916.7573">setAddr(struct sockaddr_in addr) : void</text><ellipse cx="1435.5" cy="926.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="1444.5" y="929.562">setFd(int fd) : void</text><!--MD5=[7b8ee10810d76e60b4e35294a2da36fd]
+class AHttpMessage--><rect codeLine="8" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="188.8516" id="AHttpMessage" style="stroke:#A80036;stroke-width:1.5;" width="327" x="74" y="428.5"/><ellipse cx="187.75" cy="444.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M190.7188,450.1406 Q190.1406,450.4375 189.5,450.5781 Q188.8594,450.7344 188.1563,450.7344 Q185.6563,450.7344 184.3281,449.0938 Q183.0156,447.4375 183.0156,444.3125 Q183.0156,441.1875 184.3281,439.5313 Q185.6563,437.875 188.1563,437.875 Q188.8594,437.875 189.5,438.0313 Q190.1563,438.1875 190.7188,438.4844 L190.7188,441.2031 Q190.0938,440.625 189.5,440.3594 Q188.9063,440.0781 188.2813,440.0781 Q186.9375,440.0781 186.25,441.1563 Q185.5625,442.2188 185.5625,444.3125 Q185.5625,446.4063 186.25,447.4844 Q186.9375,448.5469 188.2813,448.5469 Q188.9063,448.5469 189.5,448.2813 Q190.0938,448 190.7188,447.4219 L190.7188,450.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="91" x="208.25" y="448.6543">AHttpMessage</text><line style="stroke:#A80036;stroke-width:1.5;" x1="75" x2="400" y1="460.5" y2="460.5"/><polygon fill="none" points="85,466.5,89,470.5,85,474.5,81,470.5" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="94" y="474.7104">_headers : map_type</text><polygon fill="none" points="85,479.3047,89,483.3047,85,487.3047,81,483.3047" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="94" y="487.5151">_content : std::string</text><line style="stroke:#A80036;stroke-width:1.5;" x1="75" x2="400" y1="494.1094" y2="494.1094"/><ellipse cx="85" cy="505.1094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="94" y="508.3198">AHttpMessage()</text><ellipse cx="85" cy="517.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="94" y="521.1245">~AHttpMessage()</text><ellipse cx="85" cy="530.7188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="141" x="94" y="533.9292">getHeaders() : map_type</text><ellipse cx="85" cy="543.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="94" y="546.7339">getContentLength() : size_t</text><ellipse cx="85" cy="556.3281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="141" x="94" y="559.5386">getContent() : std::string</text><ellipse cx="85" cy="569.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="233" x="94" y="572.3433">getHeader(std::string name) : std::string</text><ellipse cx="85" cy="581.9375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="301" x="94" y="585.1479">addHeader(std::string name, std::string value) : void</text><ellipse cx="85" cy="594.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="197" x="94" y="597.9526">readContent(std::istream is) : void</text><ellipse cx="85" cy="607.5469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="94" y="610.7573">setContent(std::string content) : void</text><!--MD5=[4da09b18006e212e9efdc897e83005a4]
+class HttpRequest--><rect codeLine="23" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="214.4609" id="HttpRequest" style="stroke:#A80036;stroke-width:1.5;" width="305" x="444" y="728.5"/><ellipse cx="552.75" cy="744.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M555.7188,750.1406 Q555.1406,750.4375 554.5,750.5781 Q553.8594,750.7344 553.1563,750.7344 Q550.6563,750.7344 549.3281,749.0938 Q548.0156,747.4375 548.0156,744.3125 Q548.0156,741.1875 549.3281,739.5313 Q550.6563,737.875 553.1563,737.875 Q553.8594,737.875 554.5,738.0313 Q555.1563,738.1875 555.7188,738.4844 L555.7188,741.2031 Q555.0938,740.625 554.5,740.3594 Q553.9063,740.0781 553.2813,740.0781 Q551.9375,740.0781 551.25,741.1563 Q550.5625,742.2188 550.5625,744.3125 Q550.5625,746.4063 551.25,747.4844 Q551.9375,748.5469 553.2813,748.5469 Q553.9063,748.5469 554.5,748.2813 Q555.0938,748 555.7188,747.4219 L555.7188,750.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="79" x="573.25" y="748.6543">HttpRequest</text><line style="stroke:#A80036;stroke-width:1.5;" x1="445" x2="748" y1="760.5" y2="760.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="452" y="768.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="49" x="464" y="774.7104">_uri : Uri</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="452" y="781.3047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="464" y="787.5151">_method : std::string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="452" y="794.1094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="464" y="800.3198">_version : std::string</text><line style="stroke:#A80036;stroke-width:1.5;" x1="445" x2="748" y1="806.9141" y2="806.9141"/><ellipse cx="455" cy="817.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="464" y="821.1245">HttpRequest()</text><ellipse cx="455" cy="830.7188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="86" x="464" y="833.9292">~HttpRequest()</text><ellipse cx="455" cy="843.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="279" x="464" y="846.7339">create(std::istream&amp; inputStream) : HttpRequest</text><ellipse cx="455" cy="856.3281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="464" y="859.5386">getUri() : Uri&amp;</text><ellipse cx="455" cy="869.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="464" y="872.3433">toString() : std::string</text><ellipse cx="455" cy="881.9375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="464" y="885.1479">getMethod() : std::string&amp;</text><ellipse cx="455" cy="894.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="208" x="464" y="897.9526">setMethod(std::string method) : void</text><ellipse cx="455" cy="907.5469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="157" x="464" y="910.7573">setUri(const Uri&amp; uri) : void</text><ellipse cx="455" cy="920.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="209" x="464" y="923.562">setVersion(std::string version) : void</text><ellipse cx="455" cy="933.1563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="163" x="464" y="936.3667">write(std::ostream os) : void</text><!--MD5=[8209a440f783abc22af203f8410078b7]
+class HttpResponse--><rect codeLine="40" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="188.8516" id="HttpResponse" style="stroke:#A80036;stroke-width:1.5;" width="279" x="66" y="741"/><ellipse cx="156.75" cy="757" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M159.7188,762.6406 Q159.1406,762.9375 158.5,763.0781 Q157.8594,763.2344 157.1563,763.2344 Q154.6563,763.2344 153.3281,761.5938 Q152.0156,759.9375 152.0156,756.8125 Q152.0156,753.6875 153.3281,752.0313 Q154.6563,750.375 157.1563,750.375 Q157.8594,750.375 158.5,750.5313 Q159.1563,750.6875 159.7188,750.9844 L159.7188,753.7031 Q159.0938,753.125 158.5,752.8594 Q157.9063,752.5781 157.2813,752.5781 Q155.9375,752.5781 155.25,753.6563 Q154.5625,754.7188 154.5625,756.8125 Q154.5625,758.9063 155.25,759.9844 Q155.9375,761.0469 157.2813,761.0469 Q157.9063,761.0469 158.5,760.7813 Q159.0938,760.5 159.7188,759.9219 L159.7188,762.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="89" x="177.25" y="761.1543">HttpResponse</text><line style="stroke:#A80036;stroke-width:1.5;" x1="67" x2="344" y1="773" y2="773"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="74" y="781"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="86" y="787.2104">_status : HttpStatus</text><line style="stroke:#A80036;stroke-width:1.5;" x1="67" x2="344" y1="793.8047" y2="793.8047"/><ellipse cx="77" cy="804.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="86" y="808.0151">HttpResponse()</text><ellipse cx="77" cy="817.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="86" y="820.8198">~HttpResponse()</text><ellipse cx="77" cy="830.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="86" y="833.6245">getStatus() : int</text><ellipse cx="77" cy="843.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="230" x="86" y="846.4292">getStatusMessage(int code) : std::string</text><ellipse cx="77" cy="856.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="86" y="859.2339">toString() : std::string</text><ellipse cx="77" cy="868.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="153" x="86" y="872.0386">read(std::istream is) : void</text><ellipse cx="77" cy="881.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="253" x="86" y="884.8433">sendError(int code, std::ofstream out) : void</text><ellipse cx="77" cy="894.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="241" x="86" y="897.6479">setContentLength(int contentLength) : void</text><ellipse cx="77" cy="907.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="143" x="86" y="910.4526">setStatus(int code) : void</text><ellipse cx="77" cy="920.0469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="163" x="86" y="923.2573">write(std::ostream os) : void</text><!--MD5=[c44987c012b320dadbb07a5af3d158a1]
+class HttpStatus--><rect codeLine="55" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="201.6563" id="HttpStatus" style="stroke:#A80036;stroke-width:1.5;" width="269" x="7" y="1252"/><ellipse cx="103.25" cy="1268" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M106.2188,1273.6406 Q105.6406,1273.9375 105,1274.0781 Q104.3594,1274.2344 103.6563,1274.2344 Q101.1563,1274.2344 99.8281,1272.5938 Q98.5156,1270.9375 98.5156,1267.8125 Q98.5156,1264.6875 99.8281,1263.0313 Q101.1563,1261.375 103.6563,1261.375 Q104.3594,1261.375 105,1261.5313 Q105.6563,1261.6875 106.2188,1261.9844 L106.2188,1264.7031 Q105.5938,1264.125 105,1263.8594 Q104.4063,1263.5781 103.7813,1263.5781 Q102.4375,1263.5781 101.75,1264.6563 Q101.0625,1265.7188 101.0625,1267.8125 Q101.0625,1269.9063 101.75,1270.9844 Q102.4375,1272.0469 103.7813,1272.0469 Q104.4063,1272.0469 105,1271.7813 Q105.5938,1271.5 106.2188,1270.9219 L106.2188,1273.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="68" x="123.75" y="1272.1543">HttpStatus</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="275" y1="1284" y2="1284"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="1292"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="27" y="1298.2104">_value : int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="275" y1="1304.8047" y2="1304.8047"/><ellipse cx="18" cy="1315.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="27" y="1319.0151">HttpStatus()</text><ellipse cx="18" cy="1328.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="27" y="1331.8198">~HttpStatus()</text><ellipse cx="18" cy="1341.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="160" x="27" y="1344.6245">isClientError(int code) : bool</text><ellipse cx="18" cy="1354.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="128" x="27" y="1357.4292">isError(int code) : bool</text><ellipse cx="18" cy="1367.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="174" x="27" y="1370.2339">isInformational(int code) : bool</text><ellipse cx="18" cy="1379.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="162" x="27" y="1383.0386">isRedirection(int code) : bool</text><ellipse cx="18" cy="1392.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="166" x="27" y="1395.8433">isServerError(int code) : bool</text><ellipse cx="18" cy="1405.4375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="161" x="27" y="1408.6479">isSuccessful(int code) : bool</text><ellipse cx="18" cy="1418.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="27" y="1421.4526">getValue() : int {query}</text><ellipse cx="18" cy="1431.0469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="243" x="27" y="1434.2573">getMessage(int code) : std::string {query}</text><ellipse cx="18" cy="1443.8516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="137" x="27" y="1447.062">setValue(int code) : void</text><!--MD5=[c60af77fe5573b84a4aa4bce89659574]
+class Server--><rect codeLine="71" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="252.875" id="Server" style="stroke:#A80036;stroke-width:1.5;" width="342" x="1541.5" y="396.5"/><ellipse cx="1688.25" cy="412.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1691.2188,418.1406 Q1690.6406,418.4375 1690,418.5781 Q1689.3594,418.7344 1688.6563,418.7344 Q1686.1563,418.7344 1684.8281,417.0938 Q1683.5156,415.4375 1683.5156,412.3125 Q1683.5156,409.1875 1684.8281,407.5313 Q1686.1563,405.875 1688.6563,405.875 Q1689.3594,405.875 1690,406.0313 Q1690.6563,406.1875 1691.2188,406.4844 L1691.2188,409.2031 Q1690.5938,408.625 1690,408.3594 Q1689.4063,408.0781 1688.7813,408.0781 Q1687.4375,408.0781 1686.75,409.1563 Q1686.0625,410.2188 1686.0625,412.3125 Q1686.0625,414.4063 1686.75,415.4844 Q1687.4375,416.5469 1688.7813,416.5469 Q1689.4063,416.5469 1690,416.2813 Q1690.5938,416 1691.2188,415.4219 L1691.2188,418.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="40" x="1708.75" y="416.6543">Server</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1542.5" x2="1882.5" y1="428.5" y2="428.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1549.5" y="436.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="1561.5" y="442.7104">_clients : clients_type</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1549.5" y="449.3047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="1561.5" y="455.5151">_port : int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1549.5" y="462.1094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="1561.5" y="468.3198">_socket : sckt::Socket</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1549.5" y="474.9141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="1561.5" y="481.1245">_pfd : struct pollfd</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1542.5" x2="1882.5" y1="487.7188" y2="487.7188"/><ellipse cx="1552.5" cy="498.7188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="1561.5" y="501.9292">Server(int port)</text><ellipse cx="1552.5" cy="511.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="140" x="1561.5" y="514.7339">Server(const Server&amp; s)</text><ellipse cx="1552.5" cy="524.3281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="1561.5" y="527.5386">~Server()</text><ellipse cx="1552.5" cy="537.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="220" x="1561.5" y="540.3433">operator=(const Server&amp; s) : Server&amp;</text><ellipse cx="1552.5" cy="549.9375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="170" x="1561.5" y="553.1479">getReq(sckt::fd_type fd) : bool</text><ellipse cx="1552.5" cy="562.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="316" x="1561.5" y="565.9526">getRequest(sckt::fd_type fd, std::string* request) : bool</text><ellipse cx="1552.5" cy="575.5469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="1561.5" y="578.7573">start() : bool</text><ellipse cx="1552.5" cy="588.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="119" x="1561.5" y="591.562">connectClient() : void</text><ellipse cx="1552.5" cy="601.1563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="287" x="1561.5" y="604.3667">disconnectClient(clients_type::iterator client) : void</text><ellipse cx="1552.5" cy="613.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="272" x="1561.5" y="617.1714">manageClient(clients_type::iterator client) : void</text><ellipse cx="1552.5" cy="626.7656" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="1561.5" y="629.9761">stop() : void</text><ellipse cx="1552.5" cy="639.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="1561.5" y="642.7808">update() : void</text><!--MD5=[9cb2d3f67e2a29a05f7271ee0ae3aa70]
+class ServerConfig--><rect codeLine="91" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="291.2891" id="ServerConfig" style="stroke:#A80036;stroke-width:1.5;" width="477" x="710" y="26.5"/><ellipse cx="904.75" cy="42.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M907.7188,48.1406 Q907.1406,48.4375 906.5,48.5781 Q905.8594,48.7344 905.1563,48.7344 Q902.6563,48.7344 901.3281,47.0938 Q900.0156,45.4375 900.0156,42.3125 Q900.0156,39.1875 901.3281,37.5313 Q902.6563,35.875 905.1563,35.875 Q905.8594,35.875 906.5,36.0313 Q907.1563,36.1875 907.7188,36.4844 L907.7188,39.2031 Q907.0938,38.625 906.5,38.3594 Q905.9063,38.0781 905.2813,38.0781 Q903.9375,38.0781 903.25,39.1563 Q902.5625,40.2188 902.5625,42.3125 Q902.5625,44.4063 903.25,45.4844 Q903.9375,46.5469 905.2813,46.5469 Q905.9063,46.5469 906.5,46.2813 Q907.0938,46 907.7188,45.4219 L907.7188,48.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="79" x="925.25" y="46.6543">ServerConfig</text><line style="stroke:#A80036;stroke-width:1.5;" x1="711" x2="1186" y1="58.5" y2="58.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="66.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="185" x="730" y="72.7104">_singleton : static ServerConfig*</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="79.3047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="155" x="730" y="85.5151">_configFilePath : std::string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="92.1094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="209" x="730" y="98.3198">_servers : std::vector&lt;ServerBlock&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="711" x2="1186" y1="104.9141" y2="104.9141"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="112.9141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="232" x="730" y="119.1245">ServerConfig(const std::string&amp; filepath)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="125.7188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="170" x="730" y="131.9292">ServerConfig(ServerConfig &amp;)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="138.5234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="244" x="730" y="144.7339">_parseHost(const std::string&amp; host) : Host</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="151.3281"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="350" x="730" y="157.5386">_parseListen(parser::config::ScannerConfig&amp; scanner) : Host</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="164.1328"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="396" x="730" y="170.3433">_parseServer(parser::config::ScannerConfig&amp; scanner) : ServerBlock</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="176.9375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="285" x="730" y="183.1479">operator=(const ServerConfig &amp;) : ServerConfig&amp;</text><ellipse cx="721" cy="192.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="271" x="730" y="195.9526">getInstance(std::string filepath) : ServerConfig*</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="202.5469"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="379" x="730" y="208.7573">_parseIndex(parser::config::ScannerConfig&amp; scanner) : std::string</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="215.3516"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="374" x="730" y="221.562">_parseRoot(parser::config::ScannerConfig&amp; scanner) : std::string</text><ellipse cx="721" cy="231.1563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="227" x="730" y="234.3667">getConfigFilePath() : std::string {query}</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="240.9609"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="166" x="730" y="247.1714">_parse(std::istream &amp;) : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="253.7656"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="370" x="730" y="259.9761">_parseErrorPage(parser::config::ScannerConfig&amp; scanner) : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="266.5703"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="360" x="730" y="272.7808">_parseLocation(parser::config::ScannerConfig&amp; scanner) : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="279.375"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="384" x="730" y="285.5854">_parseServerName(parser::config::ScannerConfig&amp; scanner) : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="292.1797"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="411" x="730" y="298.3901">_skipSemiColonNewLine(parser::config::ScannerConfig&amp; scanner) : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="718" y="304.9844"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="451" x="730" y="311.1948">_throw_SyntaxError(parser::config::Token t, const std::string&amp; error_str) : void</text><!--MD5=[02c1842b1bb2ca3b7f34325b2fb88da7]
+class ServerConfig::SyntaxError--><rect codeLine="114" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="112.0234" id="ServerConfig::SyntaxError" style="stroke:#A80036;stroke-width:1.5;" width="262" x="670.5" y="467"/><ellipse cx="717.75" cy="483" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M720.7188,488.6406 Q720.1406,488.9375 719.5,489.0781 Q718.8594,489.2344 718.1563,489.2344 Q715.6563,489.2344 714.3281,487.5938 Q713.0156,485.9375 713.0156,482.8125 Q713.0156,479.6875 714.3281,478.0313 Q715.6563,476.375 718.1563,476.375 Q718.8594,476.375 719.5,476.5313 Q720.1563,476.6875 720.7188,476.9844 L720.7188,479.7031 Q720.0938,479.125 719.5,478.8594 Q718.9063,478.5781 718.2813,478.5781 Q716.9375,478.5781 716.25,479.6563 Q715.5625,480.7188 715.5625,482.8125 Q715.5625,484.9063 716.25,485.9844 Q716.9375,487.0469 718.2813,487.0469 Q718.9063,487.0469 719.5,486.7813 Q720.0938,486.5 720.7188,485.9219 L720.7188,488.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="159" x="738.25" y="487.1543">ServerConfig::SyntaxError</text><line style="stroke:#A80036;stroke-width:1.5;" x1="671.5" x2="931.5" y1="499" y2="499"/><polygon fill="none" points="681.5,505,685.5,509,681.5,513,677.5,509" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="130" x="690.5" y="513.2104">_message : std::string</text><line style="stroke:#A80036;stroke-width:1.5;" x1="671.5" x2="931.5" y1="519.8047" y2="519.8047"/><ellipse cx="681.5" cy="530.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="198" x="690.5" y="534.0151">SyntaxError(const char* message)</text><ellipse cx="681.5" cy="543.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="236" x="690.5" y="546.8198">SyntaxError(const std::string&amp; message)</text><ellipse cx="681.5" cy="556.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="690.5" y="559.6245">~SyntaxError()</text><ellipse cx="681.5" cy="569.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="690.5" y="572.4292">what() : char*</text><!--MD5=[c28606f55bc2b80d7d22aade593501c4]
+class ServerHandler--><rect codeLine="123" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="99.2188" id="ServerHandler" style="stroke:#A80036;stroke-width:1.5;" width="243" x="1591" y="122.5"/><ellipse cx="1663.75" cy="138.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1666.7188,144.1406 Q1666.1406,144.4375 1665.5,144.5781 Q1664.8594,144.7344 1664.1563,144.7344 Q1661.6563,144.7344 1660.3281,143.0938 Q1659.0156,141.4375 1659.0156,138.3125 Q1659.0156,135.1875 1660.3281,133.5313 Q1661.6563,131.875 1664.1563,131.875 Q1664.8594,131.875 1665.5,132.0313 Q1666.1563,132.1875 1666.7188,132.4844 L1666.7188,135.2031 Q1666.0938,134.625 1665.5,134.3594 Q1664.9063,134.0781 1664.2813,134.0781 Q1662.9375,134.0781 1662.25,135.1563 Q1661.5625,136.2188 1661.5625,138.3125 Q1661.5625,140.4063 1662.25,141.4844 Q1662.9375,142.5469 1664.2813,142.5469 Q1664.9063,142.5469 1665.5,142.2813 Q1666.0938,142 1666.7188,141.4219 L1666.7188,144.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="89" x="1684.25" y="142.6543">ServerHandler</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1592" x2="1833" y1="154.5" y2="154.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1599" y="162.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="179" x="1611" y="168.7104">_servers : std::vector&lt;Server&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1592" x2="1833" y1="175.3047" y2="175.3047"/><ellipse cx="1602" cy="186.3047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="217" x="1611" y="189.5151">ServerHandler(std::vector&lt;int&gt; ports)</text><ellipse cx="1602" cy="199.1094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="1611" y="202.3198">~ServerHandler()</text><ellipse cx="1602" cy="211.9141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="1611" y="215.1245">run() : void</text><!--MD5=[54966a871ed9594cfed77a625bb7d0e7]
+class Uri--><rect codeLine="131" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="701.0391" id="Uri" style="stroke:#A80036;stroke-width:1.5;" width="826" x="311.5" y="1002.5"/><ellipse cx="711.75" cy="1018.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M714.7188,1024.1406 Q714.1406,1024.4375 713.5,1024.5781 Q712.8594,1024.7344 712.1563,1024.7344 Q709.6563,1024.7344 708.3281,1023.0938 Q707.0156,1021.4375 707.0156,1018.3125 Q707.0156,1015.1875 708.3281,1013.5313 Q709.6563,1011.875 712.1563,1011.875 Q712.8594,1011.875 713.5,1012.0313 Q714.1563,1012.1875 714.7188,1012.4844 L714.7188,1015.2031 Q714.0938,1014.625 713.5,1014.3594 Q712.9063,1014.0781 712.2813,1014.0781 Q710.9375,1014.0781 710.25,1015.1563 Q709.5625,1016.2188 709.5625,1018.3125 Q709.5625,1020.4063 710.25,1021.4844 Q710.9375,1022.5469 712.2813,1022.5469 Q712.9063,1022.5469 713.5,1022.2813 Q714.0938,1022 714.7188,1021.4219 L714.7188,1024.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="17" x="732.25" y="1022.6543">Uri</text><line style="stroke:#A80036;stroke-width:1.5;" x1="312.5" x2="1136.5" y1="1034.5" y2="1034.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="319.5" y="1042.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="331.5" y="1048.7104">_fragment : std::string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="319.5" y="1055.3047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="331.5" y="1061.5151">_host : std::string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="319.5" y="1068.1094"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="331.5" y="1074.3198">_path : std::string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="319.5" y="1080.9141"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="109" x="331.5" y="1087.1245">_query : std::string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="319.5" y="1093.7188"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="331.5" y="1099.9292">_scheme : std::string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="319.5" y="1106.5234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="331.5" y="1112.7339">_userInfo : std::string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="319.5" y="1119.3281"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="331.5" y="1125.5386">_port : u_short</text><line style="stroke:#A80036;stroke-width:1.5;" x1="312.5" x2="1136.5" y1="1132.1328" y2="1132.1328"/><ellipse cx="322.5" cy="1143.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="331.5" y="1146.3433">Uri()</text><ellipse cx="322.5" cy="1155.9375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="147" x="331.5" y="1159.1479">Uri(const std::string&amp; uri)</text><ellipse cx="322.5" cy="1168.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="335" x="331.5" y="1171.9526">Uri(const std::string&amp; scheme, const std::string&amp; pathEtc)</text><ellipse cx="322.5" cy="1181.5469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="501" x="331.5" y="1184.7573">Uri(const std::string&amp; scheme, const std::string&amp; authority, const std::string&amp; pathEtc)</text><ellipse cx="322.5" cy="1194.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="632" x="331.5" y="1197.562">Uri(const std::string&amp; scheme, const std::string&amp; authority, const std::string&amp; path, const std::string&amp; query)</text><ellipse cx="322.5" cy="1207.1563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="800" x="331.5" y="1210.3667">Uri(const std::string&amp; scheme, const std::string&amp; authority, const std::string&amp; path, const std::string&amp; query, const std::string&amp; fragment)</text><ellipse cx="322.5" cy="1219.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="331.5" y="1223.1714">Uri(Uri &amp;)</text><ellipse cx="322.5" cy="1232.7656" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="33" x="331.5" y="1235.9761">~Uri()</text><ellipse cx="322.5" cy="1245.5703" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="169" x="331.5" y="1248.7808">operator=(const Uri &amp;) : Uri&amp;</text><ellipse cx="322.5" cy="1258.375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="227" x="331.5" y="1261.5854">operator=(const std::string&amp; uri) : Uri&amp;</text><ellipse cx="322.5" cy="1271.1797" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="331.5" y="1274.3901">empty() : bool {query}</text><ellipse cx="322.5" cy="1283.9844" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="331.5" y="1287.1948">isRelative() : bool {query}</text><ellipse cx="322.5" cy="1296.7891" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="186" x="331.5" y="1299.9995">isWellKnownPort() : bool {query}</text><ellipse cx="322.5" cy="1309.5938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="240" x="331.5" y="1312.8042">decode(std::string s) : std::string {query}</text><ellipse cx="322.5" cy="1322.3984" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="197" x="331.5" y="1325.6089">getAuthority() : std::string {query}</text><ellipse cx="322.5" cy="1335.2031" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="151" x="331.5" y="1338.4136">getFragment() : std::string</text><ellipse cx="322.5" cy="1348.0078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="331.5" y="1351.2183">getHost() : std::string</text><ellipse cx="322.5" cy="1360.8125" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="331.5" y="1364.0229">getPath() : std::string</text><ellipse cx="322.5" cy="1373.6172" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="227" x="331.5" y="1376.8276">getPathAndQuery() : std::string {query}</text><ellipse cx="322.5" cy="1386.4219" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="189" x="331.5" y="1389.6323">getPathEtc() : std::string {query}</text><ellipse cx="322.5" cy="1399.2266" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="181" x="331.5" y="1402.437">getQuery() : std::string {query}</text><ellipse cx="322.5" cy="1412.0313" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="154" x="331.5" y="1415.2417">getRawQuery() : std::string</text><ellipse cx="322.5" cy="1424.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="143" x="331.5" y="1428.0464">getScheme() : std::string</text><ellipse cx="322.5" cy="1437.6406" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="145" x="331.5" y="1440.8511">getUserInfo() : std::string</text><ellipse cx="322.5" cy="1450.4453" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="331.5" y="1453.6558">toString() : std::string</text><ellipse cx="322.5" cy="1463.25" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="154" x="331.5" y="1466.4604">getPort() : u_short {query}</text><ellipse cx="322.5" cy="1476.0547" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="156" x="331.5" y="1479.2651">getSpecifiedPort() : u_short</text><ellipse cx="322.5" cy="1488.8594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="213" x="331.5" y="1492.0698">getWellKnownPort() : u_short {query}</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="319.5" y="1498.6641"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="523" x="331.5" y="1504.8745">_parseAuthority(std::string::const_iterator&amp; it, const std::string::const_iterator&amp; end) : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="319.5" y="1511.4688"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="543" x="331.5" y="1517.6792">_parseHostAndPort(std::string::const_iterator&amp; it, const std::string::const_iterator&amp; end) : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="319.5" y="1524.2734"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="515" x="331.5" y="1530.4839">_parsePathEtc(std::string::const_iterator&amp; it, const std::string::const_iterator&amp; end) : void</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="319.5" y="1537.0781"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="221" x="331.5" y="1543.2886">_parseUri(const std::string&amp; uri) : void</text><ellipse cx="322.5" cy="1552.8828" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="331.5" y="1556.0933">clear() : void</text><ellipse cx="322.5" cy="1565.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="219" x="331.5" y="1568.8979">setAuthority(const std::string &amp;) : void</text><ellipse cx="322.5" cy="1578.4922" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="223" x="331.5" y="1581.7026">setFragment(const std::string &amp;) : void</text><ellipse cx="322.5" cy="1591.2969" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="195" x="331.5" y="1594.5073">setHost(const std::string &amp;) : void</text><ellipse cx="322.5" cy="1604.1016" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="194" x="331.5" y="1607.312">setPath(const std::string &amp;) : void</text><ellipse cx="322.5" cy="1616.9063" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="211" x="331.5" y="1620.1167">setPathEtc(const std::string &amp;) : void</text><ellipse cx="322.5" cy="1629.7109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="127" x="331.5" y="1632.9214">setPort(u_short) : void</text><ellipse cx="322.5" cy="1642.5156" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="203" x="331.5" y="1645.7261">setQuery(const std::string &amp;) : void</text><ellipse cx="322.5" cy="1655.3203" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="226" x="331.5" y="1658.5308">setRawQuery(const std::string &amp;) : void</text><ellipse cx="322.5" cy="1668.125" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="215" x="331.5" y="1671.3354">setScheme(const std::string &amp;) : void</text><ellipse cx="322.5" cy="1680.9297" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="179" x="331.5" y="1684.1401">setSpecifiedPort(u_short) : void</text><ellipse cx="322.5" cy="1693.7344" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="217" x="331.5" y="1696.9448">setUserInfo(const std::string &amp;) : void</text><!--MD5=[bf80aca272b4dbb7277da3ce6255b748]
+class Uri::SyntaxError--><rect codeLine="186" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="60.8047" id="Uri::SyntaxError" style="stroke:#A80036;stroke-width:1.5;" width="129" x="660" y="2141"/><ellipse cx="675" cy="2157" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M677.9688,2162.6406 Q677.3906,2162.9375 676.75,2163.0781 Q676.1094,2163.2344 675.4063,2163.2344 Q672.9063,2163.2344 671.5781,2161.5938 Q670.2656,2159.9375 670.2656,2156.8125 Q670.2656,2153.6875 671.5781,2152.0313 Q672.9063,2150.375 675.4063,2150.375 Q676.1094,2150.375 676.75,2150.5313 Q677.4063,2150.6875 677.9688,2150.9844 L677.9688,2153.7031 Q677.3438,2153.125 676.75,2152.8594 Q676.1563,2152.5781 675.5313,2152.5781 Q674.1875,2152.5781 673.5,2153.6563 Q672.8125,2154.7188 672.8125,2156.8125 Q672.8125,2158.9063 673.5,2159.9844 Q674.1875,2161.0469 675.5313,2161.0469 Q676.1563,2161.0469 676.75,2160.7813 Q677.3438,2160.5 677.9688,2159.9219 L677.9688,2162.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="97" x="689" y="2161.1543">Uri::SyntaxError</text><line style="stroke:#A80036;stroke-width:1.5;" x1="661" x2="788" y1="2173" y2="2173"/><line style="stroke:#A80036;stroke-width:1.5;" x1="661" x2="788" y1="2181" y2="2181"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="668" y="2189"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="78" x="680" y="2195.2104">what() : char*</text><!--MD5=[b4007758ef3c7970e509fc4032ff4a77]
+class HttpStatus::Code--><rect codeLine="191" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="816.2813" id="HttpStatus::Code" style="stroke:#A80036;stroke-width:1.5;" width="188" x="47.5" y="1763.5"/><ellipse cx="84.1" cy="1779.5" fill="#EB937F" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M88.2094,1785.5 L80.4906,1785.5 L80.4906,1773.1094 L88.2094,1773.1094 L88.2094,1775.2656 L82.9438,1775.2656 L82.9438,1777.9375 L87.7094,1777.9375 L87.7094,1780.0938 L82.9438,1780.0938 L82.9438,1783.3438 L88.2094,1783.3438 L88.2094,1785.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="108" x="102.9" y="1783.6543">HttpStatus::Code</text><line style="stroke:#A80036;stroke-width:1.5;" x1="48.5" x2="234.5" y1="1795.5" y2="1795.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="53.5" y="1809.7104">Accepted</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="53.5" y="1822.5151">AlreadyReported</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="53.5" y="1835.3198">BadGateway</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="53.5" y="1848.1245">BadRequest</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="53.5" y="1860.9292">Conflict</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="50" x="53.5" y="1873.7339">Continue</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="45" x="53.5" y="1886.5386">Created</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="53.5" y="1899.3433">EarlyHints</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="53.5" y="1912.1479">ExpectationFailed</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="53.5" y="1924.9526">FailedDependency</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="53.5" y="1937.7573">Forbidden</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="34" x="53.5" y="1950.562">Found</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="53.5" y="1963.3667">GatewayTimeout</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="30" x="53.5" y="1976.1714">Gone</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="150" x="53.5" y="1988.9761">HTTPVersionNotSupported</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="53.5" y="2001.7808">IMUsed</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="53.5" y="2014.5854">ImATeapot</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="53.5" y="2027.3901">InsufficientStorage</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="110" x="53.5" y="2040.1948">InternalServerError</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="53.5" y="2052.9995">LengthRequired</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="39" x="53.5" y="2065.8042">Locked</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="53.5" y="2078.6089">LoopDetected</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="53.5" y="2091.4136">MethodNotAllowed</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="53.5" y="2104.2183">MovedPermanently</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="53.5" y="2117.0229">MultiStatus</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="88" x="53.5" y="2129.8276">MultipleChoices</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="176" x="53.5" y="2142.6323">NetworkAuthenticationRequired</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="53.5" y="2155.437">NoContent</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="158" x="53.5" y="2168.2417">NonAuthoritativeInformation</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="53.5" y="2181.0464">NotAcceptable</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="53.5" y="2193.8511">NotExtended</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="53.5" y="2206.6558">NotFound</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="53.5" y="2219.4604">NotImplemented</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="66" x="53.5" y="2232.2651">NotModified</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="16" x="53.5" y="2245.0698">OK</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="53.5" y="2257.8745">PartialContent</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="53.5" y="2270.6792">PayloadTooLarge</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="53.5" y="2283.4839">PaymentRequired</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="53.5" y="2296.2886">PermanentRedirect</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="53.5" y="2309.0933">PreconditionFailed</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="120" x="53.5" y="2321.8979">PreconditionRequired</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="53.5" y="2334.7026">Processing</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="161" x="53.5" y="2347.5073">ProxyAuthenticationRequired</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="53.5" y="2360.312">RangeNotSatisfiable</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="173" x="53.5" y="2373.1167">RequestHeaderFieldsTooLarge</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="53.5" y="2385.9214">RequestTimeout</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="53.5" y="2398.7261">ResetContent</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="53.5" y="2411.5308">SeeOther</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="53.5" y="2424.3354">ServiceUnavailable</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="53.5" y="2437.1401">SwitchingProtocols</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="53.5" y="2449.9448">TemporaryRedirect</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="53.5" y="2462.7495">TooManyRequests</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="66" x="53.5" y="2475.5542">URITooLong</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="53.5" y="2488.3589">Unauthorized</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="162" x="53.5" y="2501.1636">UnavailableForLegalReasons</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="53.5" y="2513.9683">UnprocessableEntity</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="133" x="53.5" y="2526.7729">UnsupportedMediaType</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="53.5" y="2539.5776">UpgradeRequired</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="53.5" y="2552.3823">UseProxy</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="125" x="53.5" y="2565.187">VariantAlsoNegotiates</text><line style="stroke:#A80036;stroke-width:1.5;" x1="48.5" x2="234.5" y1="2571.7813" y2="2571.7813"/><!--MD5=[c62846c0c9715c1d98dd5933e5913037]
+class Host--><rect codeLine="255" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="73.6094" id="Host" style="stroke:#A80036;stroke-width:1.5;" width="122" x="1172.5" y="1316"/><ellipse cx="1214.95" cy="1332" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1217.9188,1337.6406 Q1217.3406,1337.9375 1216.7,1338.0781 Q1216.0594,1338.2344 1215.3563,1338.2344 Q1212.8563,1338.2344 1211.5281,1336.5938 Q1210.2156,1334.9375 1210.2156,1331.8125 Q1210.2156,1328.6875 1211.5281,1327.0313 Q1212.8563,1325.375 1215.3563,1325.375 Q1216.0594,1325.375 1216.7,1325.5313 Q1217.3563,1325.6875 1217.9188,1325.9844 L1217.9188,1328.7031 Q1217.2938,1328.125 1216.7,1327.8594 Q1216.1063,1327.5781 1215.4813,1327.5781 Q1214.1375,1327.5781 1213.45,1328.6563 Q1212.7625,1329.7188 1212.7625,1331.8125 Q1212.7625,1333.9063 1213.45,1334.9844 Q1214.1375,1336.0469 1215.4813,1336.0469 Q1216.1063,1336.0469 1216.7,1335.7813 Q1217.2938,1335.5 1217.9188,1334.9219 L1217.9188,1337.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="29" x="1235.05" y="1336.1543">Host</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1173.5" x2="1293.5" y1="1348" y2="1348"/><ellipse cx="1183.5" cy="1359" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="49" x="1192.5" y="1362.2104">port : int</text><ellipse cx="1183.5" cy="1371.8047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="1192.5" y="1375.0151">host : std::string</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1173.5" x2="1293.5" y1="1381.6094" y2="1381.6094"/><!--MD5=[a2d405cb1624908b526e974f0503a9ad]
+class ServerBlock--><rect codeLine="261" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="112.0234" id="ServerBlock" style="stroke:#A80036;stroke-width:1.5;" width="253" x="968" y="467"/><ellipse cx="1053.75" cy="483" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1056.7188,488.6406 Q1056.1406,488.9375 1055.5,489.0781 Q1054.8594,489.2344 1054.1563,489.2344 Q1051.6563,489.2344 1050.3281,487.5938 Q1049.0156,485.9375 1049.0156,482.8125 Q1049.0156,479.6875 1050.3281,478.0313 Q1051.6563,476.375 1054.1563,476.375 Q1054.8594,476.375 1055.5,476.5313 Q1056.1563,476.6875 1056.7188,476.9844 L1056.7188,479.7031 Q1056.0938,479.125 1055.5,478.8594 Q1054.9063,478.5781 1054.2813,478.5781 Q1052.9375,478.5781 1052.25,479.6563 Q1051.5625,480.7188 1051.5625,482.8125 Q1051.5625,484.9063 1052.25,485.9844 Q1052.9375,487.0469 1054.2813,487.0469 Q1054.9063,487.0469 1055.5,486.7813 Q1056.0938,486.5 1056.7188,485.9219 L1056.7188,488.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="1074.25" y="487.1543">ServerBlock</text><line style="stroke:#A80036;stroke-width:1.5;" x1="969" x2="1220" y1="499" y2="499"/><ellipse cx="979" cy="510" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="227" x="988" y="513.2104">errors : std::map&lt;u_short, std::string&gt;</text><ellipse cx="979" cy="522.8047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="988" y="526.0151">root : std::string</text><ellipse cx="979" cy="535.6094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="141" x="988" y="538.8198">serverName : std::string</text><ellipse cx="979" cy="548.4141" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="155" x="988" y="551.6245">listens : std::vector&lt;Host&gt;</text><ellipse cx="979" cy="561.2188" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="194" x="988" y="564.4292">indexes : std::vector&lt;std::string&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="969" x2="1220" y1="571.0234" y2="571.0234"/><!--MD5=[8b845773d428340f60fb8c83d7be0392]
+class ServerBlock::Location--><rect codeLine="270" fill="#FEFECE" filter="url(#f8j4nqycpsbbf)" height="99.2188" id="ServerBlock::Location" style="stroke:#A80036;stroke-width:1.5;" width="191" x="989" y="786"/><ellipse cx="1015.25" cy="802" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1018.2188,807.6406 Q1017.6406,807.9375 1017,808.0781 Q1016.3594,808.2344 1015.6563,808.2344 Q1013.1563,808.2344 1011.8281,806.5938 Q1010.5156,804.9375 1010.5156,801.8125 Q1010.5156,798.6875 1011.8281,797.0313 Q1013.1563,795.375 1015.6563,795.375 Q1016.3594,795.375 1017,795.5313 Q1017.6563,795.6875 1018.2188,795.9844 L1018.2188,798.7031 Q1017.5938,798.125 1017,797.8594 Q1016.4063,797.5781 1015.7813,797.5781 Q1014.4375,797.5781 1013.75,798.6563 Q1013.0625,799.7188 1013.0625,801.8125 Q1013.0625,803.9063 1013.75,804.9844 Q1014.4375,806.0469 1015.7813,806.0469 Q1016.4063,806.0469 1017,805.7813 Q1017.5938,805.5 1018.2188,804.9219 L1018.2188,807.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="134" x="1031.75" y="806.1543">ServerBlock::Location</text><line style="stroke:#A80036;stroke-width:1.5;" x1="990" x2="1179" y1="818" y2="818"/><ellipse cx="1000" cy="829" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="106" x="1009" y="832.2104">fastCgiPass : Host</text><ellipse cx="1000" cy="841.8047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="1009" y="845.0151">path : Uri</text><ellipse cx="1000" cy="854.6094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="1009" y="857.8198">autoindex : bool</text><ellipse cx="1000" cy="867.4141" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="165" x="1009" y="870.6245">client_max_body_size : size_t</text><line style="stroke:#A80036;stroke-width:1.5;" x1="990" x2="1179" y1="877.2188" y2="877.2188"/><!--MD5=[d532b561af1c71ac45e887977a430bed]
+reverse link AHttpMessage to HttpRequest--><path codeLine="445" d="M361.08,630.89 C397.52,662.4 437.36,696.86 473.74,728.33 " fill="none" id="AHttpMessage-backto-HttpRequest" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="356.25,635.96,345.7,617.58,365.4,625.37,356.25,635.96" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0ba115b2af8542eab78f2f0efaca30c9]
+reverse link AHttpMessage to HttpResponse--><path codeLine="448" d="M225.78,637.71 C222.29,671.61 218.5,708.37 215.15,740.84 " fill="none" id="AHttpMessage-backto-HttpResponse" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="218.84,636.76,227.86,617.58,232.77,638.19,218.84,636.76" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[cbfa7bb71f2f49cdaa297ecfa7a90e7f]
+reverse link parser.IScanner to parser.Scanner--><path codeLine="451" d="M2012.42,259.48 C2024.33,281.15 2039.83,302.47 2059.5,317.5 C2172.19,403.57 2576.73,474.21 2779.66,505.15 " fill="none" id="parser.IScanner-backto-parser.Scanner" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="2006.02,262.34,2003.25,241.34,2018.52,256.03,2006.02,262.34" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5232b11a531143b105b080fdb7b4bd72]
+reverse link parser.IScanner to parser.ScannerFD--><path codeLine="454" d="M1989.09,261.06 C1992.92,296.27 1997.44,337.75 2001.73,377.16 " fill="none" id="parser.IScanner-backto-parser.ScannerFD" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="1982.12,261.76,1986.92,241.12,1996.04,260.24,1982.12,261.76" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[eb94f7a53a9e3ef312c4b8b8668f8222]
+reverse link clnt.Client to sckt.Socket--><path codeLine="462" d="M1449.37,622.72 C1470.27,658.38 1493.87,698.65 1514.84,734.43 " fill="none" id="clnt.Client-backto-sckt.Socket" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1442.68,611.32,1442.2623,618.519,1448.7469,621.6734,1449.1646,614.4744,1442.68,611.32" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4bbfc9482f136529f4bd99d966bcfa03]
+reverse link HttpRequest to Uri--><path codeLine="465" d="M626.05,955.5 C629.73,970.34 633.64,986.06 637.68,1002.34 " fill="none" id="HttpRequest-backto-Uri" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="622.87,942.69,620.4302,949.4758,625.7556,954.3379,628.1954,947.5521,622.87,942.69" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[10d1502400a05378b80e067465b1e462]
+reverse link HttpResponse to HttpStatus--><path codeLine="468" d="M192.25,943.25 C180.98,1033.97 164.94,1163.24 153.92,1251.98 " fill="none" id="HttpResponse-backto-HttpStatus" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="193.87,930.15,189.1619,935.612,192.3929,942.0587,197.1011,936.5967,193.87,930.15" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[dbbf2eba2575171339b382ed23bffee8]
+reverse link parser.parser::config.ScannerConfig to parser.Scanner--><path codeLine="471" d="M3298.79,260.71 C3211.43,317.59 3098.72,390.98 3015,445.49 " fill="none" id="parser.parser::config.ScannerConfig-backto-parser.Scanner" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="3309.86,253.51,3302.6493,253.4375,3299.8089,260.0656,3307.0197,260.1382,3309.86,253.51" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[bba2a43c8dd73e808f7196443f044821]
+reverse link parser.parser::config.ScannerConfig to parser.parser::config.Token--><path codeLine="474" d="M3389.6,265.3 C3357.83,332.09 3316.16,419.7 3290.63,473.37 " fill="none" id="parser.parser::config.ScannerConfig-backto-parser.parser::config.Token" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="3395.21,253.51,3389.0205,257.2101,3390.0554,264.3465,3396.2449,260.6465,3395.21,253.51" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="3383.3114" y="273.7775">2</text><!--MD5=[07fadc8e359723fa57d59fdf3eb26ca0]
+reverse link parser.parser::http.ScannerHttpRequest to parser.Scanner--><path codeLine="477" d="M2897.5,266.73 C2897.5,306.57 2897.5,353.63 2897.5,396.42 " fill="none" id="parser.parser::http.ScannerHttpRequest-backto-parser.Scanner" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="2897.5,253.51,2893.5,259.51,2897.5,265.51,2901.5,259.51,2897.5,253.51" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c07d07ae39b17b2293f1f69ed6528c73]
+reverse link parser.parser::http.ScannerHttpRequest to parser.parser::config.Token--><path codeLine="480" d="M3026.17,261.34 C3071.26,295.15 3120.78,335.7 3161.5,377.5 C3189.94,406.69 3217.03,443.85 3236.71,473.17 " fill="none" id="parser.parser::http.ScannerHttpRequest-backto-parser.parser::config.Token" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="3015.72,253.56,3018.1469,260.3505,3025.3484,260.722,3022.9215,253.9315,3015.72,253.56" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="3018.2497" y="273.8321">2</text><!--MD5=[daf039fc6a9ebf0cdbaeb133eb0d7697]
+reverse link Server to sckt.Socket--><path codeLine="483" d="M1650.83,661.76 C1639.92,686.14 1628.74,711.1 1618.4,734.2 " fill="none" id="Server-backto-sckt.Socket" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1656.16,649.84,1650.0559,653.6793,1651.2521,660.7905,1657.3562,656.9512,1656.16,649.84" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6eeba4df402bdd77fd865fb6862650af]
+reverse link ServerBlock to Host--><path codeLine="486" d="M1145.65,590.01 C1165.56,619.43 1186.26,655.53 1197.5,691.5 C1268.92,920.04 1247.88,1214.44 1237.62,1315.82 " fill="none" id="ServerBlock-backto-Host" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1138.08,579.07,1138.2075,586.28,1144.9119,588.9354,1144.7844,581.7254,1138.08,579.07" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8cd0c114c4a5c65b24bc1488cc1db42b]
+reverse link ServerBlock::Location to Host--><path codeLine="489" d="M1113.04,896.97 C1126.91,928.02 1143.02,966.75 1154.5,1002.5 C1190.49,1114.59 1216.44,1251.96 1227.53,1315.97 " fill="none" id="ServerBlock::Location-backto-Host" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1107.65,885.03,1106.4681,892.1436,1112.5799,895.9706,1113.7618,888.857,1107.65,885.03" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[44277716a0f310b7183f3b64ef3c6ab1]
+reverse link ServerBlock::Location to Uri--><path codeLine="492" d="M1042.65,896.43 C1022.63,925.09 996.91,961.93 968.77,1002.22 " fill="none" id="ServerBlock::Location-backto-Uri" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1050.31,885.46,1043.5928,888.0828,1043.4302,895.292,1050.1475,892.6693,1050.31,885.46" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[994c3c9786dc8121991c20f5f73863b1]
+reverse link ServerConfig to ServerBlock--><path codeLine="495" d="M1014.1,329.81 C1034.63,378.88 1055.94,429.83 1071.46,466.93 " fill="none" id="ServerConfig-backto-ServerBlock" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1009.04,317.72,1007.6626,324.7983,1013.6666,328.7922,1015.0441,321.7139,1009.04,317.72" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d153c192e06ce236f3b225b065a57873]
+reverse link ServerConfig to ServerConfig--><path codeLine="498" d="M1198.32,126.87 C1213.13,137.66 1222,152.7 1222,172 C1222,195.75 1208.56,213.06 1187.16,223.92 " fill="none" id="ServerConfig-backto-ServerConfig" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="1187.16,120.08,1190.2051,126.6166,1197.4101,126.3198,1194.365,119.7832,1187.16,120.08" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[294aeb58b9b9af8ce9ee02d245ffcb4a]
+reverse link ServerHandler to Server--><path codeLine="501" d="M1712.5,234.8 C1712.5,279.44 1712.5,341.27 1712.5,396.13 " fill="none" id="ServerHandler-backto-Server" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1712.5,221.53,1708.5,227.53,1712.5,233.53,1716.5,227.53,1712.5,221.53" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7f7d383eba1f49a7866301a090635fb5]
+reverse link parser.parser::config.Token to parser.parser::config.ScopedEnum--><path codeLine="504" d="M3266.5,585.83 C3265.39,655.21 3263.63,764.2 3262.87,811.42 " fill="none" id="parser.parser::config.Token-backto-parser.parser::config.ScopedEnum" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="3266.72,572.52,3262.6217,578.4533,3266.5222,584.5184,3270.6206,578.5851,3266.72,572.52" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="3258.0179" y="592.9554">4</text><!--MD5=[d89cf01b7450f990d9fcb21f7b42078d]
+reverse link HttpStatus to HttpStatus::Code--><path codeLine="513" d="M141.5,1469.29 C141.5,1547.19 141.5,1655.16 141.5,1763.05 " fill="none" id="HttpStatus-backto-HttpStatus::Code" style="stroke:#A80036;stroke-width:1.0;"/><ellipse cx="141.5" cy="1462.12" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="141.5" x2="141.5" y1="1470.12" y2="1454.12"/><line style="stroke:#A80036;stroke-width:1.0;" x1="133.5" x2="149.5" y1="1462.12" y2="1462.12"/><!--MD5=[aefbd7c301b244848f69242da83328cb]
+reverse link parser.parser::config.ScopedEnum to parser.parser::config.ScopedEnum::TokenKind--><path codeLine="516" d="M3262.5,874.71 C3262.5,956.67 3262.5,1151.16 3262.5,1264.97 " fill="none" id="parser.parser::config.ScopedEnum-backto-parser.parser::config.ScopedEnum::TokenKind" style="stroke:#A80036;stroke-width:1.0;"/><ellipse cx="3262.5" cy="867.65" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="3262.5" x2="3262.5" y1="875.65" y2="859.65"/><line style="stroke:#A80036;stroke-width:1.0;" x1="3254.5" x2="3270.5" y1="867.65" y2="867.65"/><!--MD5=[6a08916adc4a2630ccce41ed01c628e2]
+reverse link parser.parser::config.ScopedEnum to parser.parser::http.ScopedEnum::TokenKind--><path codeLine="519" d="M3190.09,825.4 C3043.97,805.42 2722.07,752.68 2655.5,668.5 C2645.47,655.81 2649.04,393.29 2645.5,377.5 C2636.54,337.52 2619.92,295.59 2603.51,260.17 " fill="none" id="parser.parser::config.ScopedEnum-backto-parser.parser::http.ScopedEnum::TokenKind" style="stroke:#A80036;stroke-width:1.0;"/><ellipse cx="3197.4114" cy="826.3837" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="3189.4828" x2="3205.34" y1="825.3174" y2="827.45"/><line style="stroke:#A80036;stroke-width:1.0;" x1="3198.4777" x2="3196.3451" y1="818.4551" y2="834.3123"/><!--MD5=[590e1b9c5b9beebdd9ec401f5f1418bd]
+reverse link ServerBlock to ServerBlock::Location--><path codeLine="522" d="M1092.24,594.24 C1090.35,652.74 1087.72,734.52 1086.06,785.98 " fill="none" id="ServerBlock-backto-ServerBlock::Location" style="stroke:#A80036;stroke-width:1.0;"/><ellipse cx="1092.4687" cy="587.1461" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1092.2174" x2="1092.72" y1="595.1421" y2="579.15"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1084.4726" x2="1100.4647" y1="586.8947" y2="587.3974"/><!--MD5=[3ee118d5e980194adc604f9f13e1ac7e]
+reverse link ServerConfig to ServerConfig::SyntaxError--><path codeLine="525" d="M881.66,331.68 C861.24,380.17 840.12,430.3 824.69,466.93 " fill="none" id="ServerConfig-backto-ServerConfig::SyntaxError" style="stroke:#A80036;stroke-width:1.0;"/><ellipse cx="884.4393" cy="325.0947" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="881.3386" x2="887.54" y1="332.4693" y2="317.72"/><line style="stroke:#A80036;stroke-width:1.0;" x1="877.0646" x2="891.814" y1="321.994" y2="328.1954"/><!--MD5=[4da35ca2ae353d034a5dca0393961d97]
+reverse link Uri to Uri::SyntaxError--><path codeLine="528" d="M724.5,1718.72 C724.5,1889.74 724.5,2071.08 724.5,2140.82 " fill="none" id="Uri-backto-Uri::SyntaxError" style="stroke:#A80036;stroke-width:1.0;"/><ellipse cx="724.5" cy="1711.53" fill="#FFFFFF" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="724.5" x2="724.5" y1="1719.53" y2="1703.53"/><line style="stroke:#A80036;stroke-width:1.0;" x1="716.5" x2="732.5" y1="1711.53" y2="1711.53"/><!--MD5=[5f0bc6e7c6ecbb95840c38f80c8516a3]
+@startuml
+
+
+
+
+
+/' Objects '/
+
+class AHttpMessage {
+	+AHttpMessage()
+	+~AHttpMessage()
+	#_headers : map_type
+	+getHeaders() : map_type
+	+getContentLength() : size_t
+	#_content : std::string
+	+getContent() : std::string
+	+getHeader(std::string name) : std::string
+	+addHeader(std::string name, std::string value) : void
+	+readContent(std::istream is) : void
+	+setContent(std::string content) : void
+}
+
+
+class HttpRequest {
+	+HttpRequest()
+	+~HttpRequest()
+	+{static} create(std::istream& inputStream) : HttpRequest
+	-_uri : Uri
+	+getUri() : Uri&
+	-_method : std::string
+	-_version : std::string
+	+toString() : std::string
+	+getMethod() : std::string&
+	+setMethod(std::string method) : void
+	+setUri(const Uri& uri) : void
+	+setVersion(std::string version) : void
+	+write(std::ostream os) : void
+}
+
+
+class HttpResponse {
+	+HttpResponse()
+	+~HttpResponse()
+	-_status : HttpStatus
+	+getStatus() : int
+	+getStatusMessage(int code) : std::string
+	+toString() : std::string
+	+read(std::istream is) : void
+	+sendError(int code, std::ofstream out) : void
+	+setContentLength(int contentLength) : void
+	+setStatus(int code) : void
+	+write(std::ostream os) : void
+}
+
+
+class HttpStatus {
+	+HttpStatus()
+	+~HttpStatus()
+	+isClientError(int code) : bool
+	+isError(int code) : bool
+	+isInformational(int code) : bool
+	+isRedirection(int code) : bool
+	+isServerError(int code) : bool
+	+isSuccessful(int code) : bool
+	-_value : int
+	+getValue() : int {query}
+	+getMessage(int code) : std::string {query}
+	+setValue(int code) : void
+}
+
+
+class Server {
+	+Server(int port)
+	+Server(const Server& s)
+	+~Server()
+	+operator=(const Server& s) : Server&
+	+getReq(sckt::fd_type fd) : bool
+	+getRequest(sckt::fd_type fd, std::string* request) : bool
+	+start() : bool
+	-_clients : clients_type
+	-_port : int
+	-_socket : sckt::Socket
+	-_pfd : struct pollfd
+	+connectClient() : void
+	+disconnectClient(clients_type::iterator client) : void
+	+manageClient(clients_type::iterator client) : void
+	+stop() : void
+	+update() : void
+}
+
+
+class ServerConfig {
+	-ServerConfig(const std::string& filepath)
+	-ServerConfig(ServerConfig &)
+	-_parseHost(const std::string& host) : Host
+	-_parseListen(parser::config::ScannerConfig& scanner) : Host
+	-_parseServer(parser::config::ScannerConfig& scanner) : ServerBlock
+	-operator=(const ServerConfig &) : ServerConfig&
+	+{static} getInstance(std::string filepath) : ServerConfig*
+	-{static} _singleton : static ServerConfig*
+	-_configFilePath : std::string
+	-_parseIndex(parser::config::ScannerConfig& scanner) : std::string
+	-_parseRoot(parser::config::ScannerConfig& scanner) : std::string
+	+getConfigFilePath() : std::string {query}
+	-_servers : std::vector<ServerBlock>
+	-_parse(std::istream &) : void
+	-_parseErrorPage(parser::config::ScannerConfig& scanner) : void
+	-_parseLocation(parser::config::ScannerConfig& scanner) : void
+	-_parseServerName(parser::config::ScannerConfig& scanner) : void
+	-_skipSemiColonNewLine(parser::config::ScannerConfig& scanner) : void
+	-_throw_SyntaxError(parser::config::Token t, const std::string& error_str) : void
+}
+
+
+class ServerConfig::SyntaxError {
+	+SyntaxError(const char* message)
+	+SyntaxError(const std::string& message)
+	+~SyntaxError()
+	+what() : char*
+	#_message : std::string
+}
+
+
+class ServerHandler {
+	+ServerHandler(std::vector<int> ports)
+	+~ServerHandler()
+	-_servers : std::vector<Server>
+	+run() : void
+}
+
+
+class Uri {
+	+Uri()
+	+Uri(const std::string& uri)
+	+Uri(const std::string& scheme, const std::string& pathEtc)
+	+Uri(const std::string& scheme, const std::string& authority, const std::string& pathEtc)
+	+Uri(const std::string& scheme, const std::string& authority, const std::string& path, const std::string& query)
+	+Uri(const std::string& scheme, const std::string& authority, const std::string& path, const std::string& query, const std::string& fragment)
+	+Uri(Uri &)
+	+~Uri()
+	+operator=(const Uri &) : Uri&
+	+operator=(const std::string& uri) : Uri&
+	+empty() : bool {query}
+	+isRelative() : bool {query}
+	+isWellKnownPort() : bool {query}
+	-_fragment : std::string
+	-_host : std::string
+	-_path : std::string
+	-_query : std::string
+	-_scheme : std::string
+	-_userInfo : std::string
+	+decode(std::string s) : std::string {query}
+	+getAuthority() : std::string {query}
+	+getFragment() : std::string
+	+getHost() : std::string
+	+getPath() : std::string
+	+getPathAndQuery() : std::string {query}
+	+getPathEtc() : std::string {query}
+	+getQuery() : std::string {query}
+	+getRawQuery() : std::string
+	+getScheme() : std::string
+	+getUserInfo() : std::string
+	+toString() : std::string
+	-_port : u_short
+	+getPort() : u_short {query}
+	+getSpecifiedPort() : u_short
+	+getWellKnownPort() : u_short {query}
+	-_parseAuthority(std::string::const_iterator& it, const std::string::const_iterator& end) : void
+	-_parseHostAndPort(std::string::const_iterator& it, const std::string::const_iterator& end) : void
+	-_parsePathEtc(std::string::const_iterator& it, const std::string::const_iterator& end) : void
+	-_parseUri(const std::string& uri) : void
+	+clear() : void
+	+setAuthority(const std::string &) : void
+	+setFragment(const std::string &) : void
+	+setHost(const std::string &) : void
+	+setPath(const std::string &) : void
+	+setPathEtc(const std::string &) : void
+	+setPort(u_short) : void
+	+setQuery(const std::string &) : void
+	+setRawQuery(const std::string &) : void
+	+setScheme(const std::string &) : void
+	+setSpecifiedPort(u_short) : void
+	+setUserInfo(const std::string &) : void
+}
+
+
+class Uri::SyntaxError {
+	-what() : char*
+}
+
+
+enum HttpStatus::Code {
+	Accepted
+	AlreadyReported
+	BadGateway
+	BadRequest
+	Conflict
+	Continue
+	Created
+	EarlyHints
+	ExpectationFailed
+	FailedDependency
+	Forbidden
+	Found
+	GatewayTimeout
+	Gone
+	HTTPVersionNotSupported
+	IMUsed
+	ImATeapot
+	InsufficientStorage
+	InternalServerError
+	LengthRequired
+	Locked
+	LoopDetected
+	MethodNotAllowed
+	MovedPermanently
+	MultiStatus
+	MultipleChoices
+	NetworkAuthenticationRequired
+	NoContent
+	NonAuthoritativeInformation
+	NotAcceptable
+	NotExtended
+	NotFound
+	NotImplemented
+	NotModified
+	OK
+	PartialContent
+	PayloadTooLarge
+	PaymentRequired
+	PermanentRedirect
+	PreconditionFailed
+	PreconditionRequired
+	Processing
+	ProxyAuthenticationRequired
+	RangeNotSatisfiable
+	RequestHeaderFieldsTooLarge
+	RequestTimeout
+	ResetContent
+	SeeOther
+	ServiceUnavailable
+	SwitchingProtocols
+	TemporaryRedirect
+	TooManyRequests
+	URITooLong
+	Unauthorized
+	UnavailableForLegalReasons
+	UnprocessableEntity
+	UnsupportedMediaType
+	UpgradeRequired
+	UseProxy
+	VariantAlsoNegotiates
+}
+
+
+class Host {
+	+port : int
+	+host : std::string
+}
+
+
+class ServerBlock {
+	+errors : std::map<u_short, std::string>
+	+root : std::string
+	+serverName : std::string
+	+listens : std::vector<Host>
+	+indexes : std::vector<std::string>
+}
+
+
+class ServerBlock::Location {
+	+fastCgiPass : Host
+	+path : Uri
+	+autoindex : bool
+	+client_max_body_size : size_t
+}
+
+
+namespace clnt {
+	class Client {
+		+Client()
+		+~Client()
+		-_socket : sckt::Socket
+		+getAddr() : sckt::addr_type {query}
+		+getFd() : sckt::fd_type {query}
+		-_pfd : struct pollfd
+		+getPfd() : struct pollfd {query}
+		+setAddr(sckt::addr_type addr) : void
+		+setFd(sckt::fd_type fd) : void
+		+setPfd() : void
+	}
+}
+
+
+namespace parser {
+	abstract class IScanner {
+		+~IScanner()
+		+{abstract} eof() : bool
+		+{abstract} get() : char
+		+{abstract} peek() : char
+		+{abstract} unget() : char
+		+{abstract} getColumn() : int
+		+{abstract} getLine() : int
+	}
+
+	class Scanner {
+		-Scanner()
+		+Scanner(std::istream& inputStream)
+		+~Scanner()
+		+eof() : bool
+		-_c : char
+		+get() : char
+		+peek() : char
+		+unget() : char
+		-_column : int
+		-_lastColumn : int
+		-_line : int
+		+getColumn() : int
+		+getLine() : int
+		-_inStream : std::istream&
+		-moveBackward() : void
+		-moveForward() : void
+	}
+
+	class ScannerFD {
+		-ScannerFD()
+		+ScannerFD(int fd)
+		+~ScannerFD()
+		+eof() : bool
+		-_buffer : char
+		-_c : char
+		+get() : char
+		+peek() : char
+		+unget() : char
+		-_column : int
+		-_fd : int
+		-_lastColumn : int
+		-_line : int
+		+getColumn() : int
+		+getLine() : int
+		-_idx : size_t
+		+{static} bufferSize : static const size_t
+		-moveBackward() : void
+		-moveForward() : void
+	}
+
+	namespace parser::config {
+		class ScannerConfig {
+			+ScannerConfig(std::istream& inputStream)
+			+~ScannerConfig()
+			-_scan : Scanner
+			-_actualToken : Token
+			-_makeToken(ScopedEnum ::TokenKind kind, std::string value) : Token
+			-_makeToken(ScopedEnum ::TokenKind kind, std::string value, int column, int line) : Token
+			+getToken(bool skipNL) : Token
+			+peekToken() : Token
+			-_charIsString(char c) : bool
+		}
+
+		enum ScopedEnum::TokenKind {
+			kColon
+			kComma
+			kEndOfInput
+			kError
+			kIdentifier
+			kLeftBrace
+			kNewLine
+			kRightBrace
+			kSemiColon
+			kString
+		}
+
+		class ScopedEnum {
+		}
+
+		class Token {
+			+kind : ScopedEnum ::TokenKind
+			+column : int
+			+line : int
+			+value : std::string
+		}
+	}
+
+	namespace parser::http {
+		class ScannerHttpRequest {
+			+ScannerHttpRequest(std::istream& inputStream)
+			+~ScannerHttpRequest()
+			-_scan : Scanner
+			-_actualToken : Token
+			-_makeToken(ScopedEnum ::TokenKind kind, std::string value) : Token
+			+getToken(bool skipLWS) : Token
+			+peekToken() : Token
+			-_charIsString(char c) : bool
+			+getChar() : char
+		}
+
+		enum ScopedEnum::TokenKind {
+			kCarriage
+			kColon
+			kComma
+			kEndOfInput
+			kError
+			kLWS
+			kLeftBrace
+			kNewLine
+			kRightBrace
+			kString
+		}
+
+		class ScopedEnum {
+		}
+
+		class Token {
+			+kind : ScopedEnum ::TokenKind
+			+column : int
+			+line : int
+			+value : std::string
+		}
+	}
+}
+
+
+namespace sckt {
+	class Socket {
+		+Socket()
+		+~Socket()
+		+getAddrLen() : addrLen_type {query}
+		+getAddr() : addr_type {query}
+		+setFd(int domain, int type) : bool
+		+getFd() : fd_type {query}
+		-_fd : int
+		-_addrLen : sckt::socklen_t
+		-_addr : struct sockaddr_in
+		+setAddr(int domain, int interface, int port) : void
+		+setAddr(struct sockaddr_in addr) : void
+		+setFd(int fd) : void
+	}
+}
+
+
+
+
+
+/' Inheritance relationships '/
+
+.AHttpMessage <|- - .HttpRequest
+
+
+.AHttpMessage <|- - .HttpResponse
+
+
+parser.IScanner <|- - parser.Scanner
+
+
+parser.IScanner <|- - parser.ScannerFD
+
+
+
+
+
+/' Aggregation relationships '/
+
+clnt.Client *- - sckt.Socket
+
+
+.HttpRequest *- - .Uri
+
+
+.HttpResponse *- - .HttpStatus
+
+
+parser.parser::config.ScannerConfig *- - parser.Scanner
+
+
+parser.parser::config.ScannerConfig "2" *- - parser.parser::config.Token
+
+
+parser.parser::http.ScannerHttpRequest *- - parser.Scanner
+
+
+parser.parser::http.ScannerHttpRequest "2" *- - parser.parser::config.Token
+
+
+.Server *- - sckt.Socket
+
+
+.ServerBlock *- - .Host
+
+
+.ServerBlock::Location *- - .Host
+
+
+.ServerBlock::Location *- - .Uri
+
+
+.ServerConfig *- - .ServerBlock
+
+
+.ServerConfig o- - .ServerConfig
+
+
+.ServerHandler *- - .Server
+
+
+parser.parser::config.Token "4" *- - parser.parser::config.ScopedEnum
+
+
+
+
+
+
+/' Nested objects '/
+
+.HttpStatus +- - .HttpStatus::Code
+
+
+parser.parser::config.ScopedEnum +- - parser.parser::config.ScopedEnum::TokenKind
+
+
+parser.parser::config.ScopedEnum +- - parser.parser::http.ScopedEnum::TokenKind
+
+
+.ServerBlock +- - .ServerBlock::Location
+
+
+.ServerConfig +- - .ServerConfig::SyntaxError
+
+
+.Uri +- - .Uri::SyntaxError
+
+
+
+
+@enduml
+
+@startuml
+
+
+
+
+
+
+class AHttpMessage {
+	+AHttpMessage()
+	+~AHttpMessage()
+	#_headers : map_type
+	+getHeaders() : map_type
+	+getContentLength() : size_t
+	#_content : std::string
+	+getContent() : std::string
+	+getHeader(std::string name) : std::string
+	+addHeader(std::string name, std::string value) : void
+	+readContent(std::istream is) : void
+	+setContent(std::string content) : void
+}
+
+
+class HttpRequest {
+	+HttpRequest()
+	+~HttpRequest()
+	+{static} create(std::istream& inputStream) : HttpRequest
+	-_uri : Uri
+	+getUri() : Uri&
+	-_method : std::string
+	-_version : std::string
+	+toString() : std::string
+	+getMethod() : std::string&
+	+setMethod(std::string method) : void
+	+setUri(const Uri& uri) : void
+	+setVersion(std::string version) : void
+	+write(std::ostream os) : void
+}
+
+
+class HttpResponse {
+	+HttpResponse()
+	+~HttpResponse()
+	-_status : HttpStatus
+	+getStatus() : int
+	+getStatusMessage(int code) : std::string
+	+toString() : std::string
+	+read(std::istream is) : void
+	+sendError(int code, std::ofstream out) : void
+	+setContentLength(int contentLength) : void
+	+setStatus(int code) : void
+	+write(std::ostream os) : void
+}
+
+
+class HttpStatus {
+	+HttpStatus()
+	+~HttpStatus()
+	+isClientError(int code) : bool
+	+isError(int code) : bool
+	+isInformational(int code) : bool
+	+isRedirection(int code) : bool
+	+isServerError(int code) : bool
+	+isSuccessful(int code) : bool
+	-_value : int
+	+getValue() : int {query}
+	+getMessage(int code) : std::string {query}
+	+setValue(int code) : void
+}
+
+
+class Server {
+	+Server(int port)
+	+Server(const Server& s)
+	+~Server()
+	+operator=(const Server& s) : Server&
+	+getReq(sckt::fd_type fd) : bool
+	+getRequest(sckt::fd_type fd, std::string* request) : bool
+	+start() : bool
+	-_clients : clients_type
+	-_port : int
+	-_socket : sckt::Socket
+	-_pfd : struct pollfd
+	+connectClient() : void
+	+disconnectClient(clients_type::iterator client) : void
+	+manageClient(clients_type::iterator client) : void
+	+stop() : void
+	+update() : void
+}
+
+
+class ServerConfig {
+	-ServerConfig(const std::string& filepath)
+	-ServerConfig(ServerConfig &)
+	-_parseHost(const std::string& host) : Host
+	-_parseListen(parser::config::ScannerConfig& scanner) : Host
+	-_parseServer(parser::config::ScannerConfig& scanner) : ServerBlock
+	-operator=(const ServerConfig &) : ServerConfig&
+	+{static} getInstance(std::string filepath) : ServerConfig*
+	-{static} _singleton : static ServerConfig*
+	-_configFilePath : std::string
+	-_parseIndex(parser::config::ScannerConfig& scanner) : std::string
+	-_parseRoot(parser::config::ScannerConfig& scanner) : std::string
+	+getConfigFilePath() : std::string {query}
+	-_servers : std::vector<ServerBlock>
+	-_parse(std::istream &) : void
+	-_parseErrorPage(parser::config::ScannerConfig& scanner) : void
+	-_parseLocation(parser::config::ScannerConfig& scanner) : void
+	-_parseServerName(parser::config::ScannerConfig& scanner) : void
+	-_skipSemiColonNewLine(parser::config::ScannerConfig& scanner) : void
+	-_throw_SyntaxError(parser::config::Token t, const std::string& error_str) : void
+}
+
+
+class ServerConfig::SyntaxError {
+	+SyntaxError(const char* message)
+	+SyntaxError(const std::string& message)
+	+~SyntaxError()
+	+what() : char*
+	#_message : std::string
+}
+
+
+class ServerHandler {
+	+ServerHandler(std::vector<int> ports)
+	+~ServerHandler()
+	-_servers : std::vector<Server>
+	+run() : void
+}
+
+
+class Uri {
+	+Uri()
+	+Uri(const std::string& uri)
+	+Uri(const std::string& scheme, const std::string& pathEtc)
+	+Uri(const std::string& scheme, const std::string& authority, const std::string& pathEtc)
+	+Uri(const std::string& scheme, const std::string& authority, const std::string& path, const std::string& query)
+	+Uri(const std::string& scheme, const std::string& authority, const std::string& path, const std::string& query, const std::string& fragment)
+	+Uri(Uri &)
+	+~Uri()
+	+operator=(const Uri &) : Uri&
+	+operator=(const std::string& uri) : Uri&
+	+empty() : bool {query}
+	+isRelative() : bool {query}
+	+isWellKnownPort() : bool {query}
+	-_fragment : std::string
+	-_host : std::string
+	-_path : std::string
+	-_query : std::string
+	-_scheme : std::string
+	-_userInfo : std::string
+	+decode(std::string s) : std::string {query}
+	+getAuthority() : std::string {query}
+	+getFragment() : std::string
+	+getHost() : std::string
+	+getPath() : std::string
+	+getPathAndQuery() : std::string {query}
+	+getPathEtc() : std::string {query}
+	+getQuery() : std::string {query}
+	+getRawQuery() : std::string
+	+getScheme() : std::string
+	+getUserInfo() : std::string
+	+toString() : std::string
+	-_port : u_short
+	+getPort() : u_short {query}
+	+getSpecifiedPort() : u_short
+	+getWellKnownPort() : u_short {query}
+	-_parseAuthority(std::string::const_iterator& it, const std::string::const_iterator& end) : void
+	-_parseHostAndPort(std::string::const_iterator& it, const std::string::const_iterator& end) : void
+	-_parsePathEtc(std::string::const_iterator& it, const std::string::const_iterator& end) : void
+	-_parseUri(const std::string& uri) : void
+	+clear() : void
+	+setAuthority(const std::string &) : void
+	+setFragment(const std::string &) : void
+	+setHost(const std::string &) : void
+	+setPath(const std::string &) : void
+	+setPathEtc(const std::string &) : void
+	+setPort(u_short) : void
+	+setQuery(const std::string &) : void
+	+setRawQuery(const std::string &) : void
+	+setScheme(const std::string &) : void
+	+setSpecifiedPort(u_short) : void
+	+setUserInfo(const std::string &) : void
+}
+
+
+class Uri::SyntaxError {
+	-what() : char*
+}
+
+
+enum HttpStatus::Code {
+	Accepted
+	AlreadyReported
+	BadGateway
+	BadRequest
+	Conflict
+	Continue
+	Created
+	EarlyHints
+	ExpectationFailed
+	FailedDependency
+	Forbidden
+	Found
+	GatewayTimeout
+	Gone
+	HTTPVersionNotSupported
+	IMUsed
+	ImATeapot
+	InsufficientStorage
+	InternalServerError
+	LengthRequired
+	Locked
+	LoopDetected
+	MethodNotAllowed
+	MovedPermanently
+	MultiStatus
+	MultipleChoices
+	NetworkAuthenticationRequired
+	NoContent
+	NonAuthoritativeInformation
+	NotAcceptable
+	NotExtended
+	NotFound
+	NotImplemented
+	NotModified
+	OK
+	PartialContent
+	PayloadTooLarge
+	PaymentRequired
+	PermanentRedirect
+	PreconditionFailed
+	PreconditionRequired
+	Processing
+	ProxyAuthenticationRequired
+	RangeNotSatisfiable
+	RequestHeaderFieldsTooLarge
+	RequestTimeout
+	ResetContent
+	SeeOther
+	ServiceUnavailable
+	SwitchingProtocols
+	TemporaryRedirect
+	TooManyRequests
+	URITooLong
+	Unauthorized
+	UnavailableForLegalReasons
+	UnprocessableEntity
+	UnsupportedMediaType
+	UpgradeRequired
+	UseProxy
+	VariantAlsoNegotiates
+}
+
+
+class Host {
+	+port : int
+	+host : std::string
+}
+
+
+class ServerBlock {
+	+errors : std::map<u_short, std::string>
+	+root : std::string
+	+serverName : std::string
+	+listens : std::vector<Host>
+	+indexes : std::vector<std::string>
+}
+
+
+class ServerBlock::Location {
+	+fastCgiPass : Host
+	+path : Uri
+	+autoindex : bool
+	+client_max_body_size : size_t
+}
+
+
+namespace clnt {
+	class Client {
+		+Client()
+		+~Client()
+		-_socket : sckt::Socket
+		+getAddr() : sckt::addr_type {query}
+		+getFd() : sckt::fd_type {query}
+		-_pfd : struct pollfd
+		+getPfd() : struct pollfd {query}
+		+setAddr(sckt::addr_type addr) : void
+		+setFd(sckt::fd_type fd) : void
+		+setPfd() : void
+	}
+}
+
+
+namespace parser {
+	abstract class IScanner {
+		+~IScanner()
+		+{abstract} eof() : bool
+		+{abstract} get() : char
+		+{abstract} peek() : char
+		+{abstract} unget() : char
+		+{abstract} getColumn() : int
+		+{abstract} getLine() : int
+	}
+
+	class Scanner {
+		-Scanner()
+		+Scanner(std::istream& inputStream)
+		+~Scanner()
+		+eof() : bool
+		-_c : char
+		+get() : char
+		+peek() : char
+		+unget() : char
+		-_column : int
+		-_lastColumn : int
+		-_line : int
+		+getColumn() : int
+		+getLine() : int
+		-_inStream : std::istream&
+		-moveBackward() : void
+		-moveForward() : void
+	}
+
+	class ScannerFD {
+		-ScannerFD()
+		+ScannerFD(int fd)
+		+~ScannerFD()
+		+eof() : bool
+		-_buffer : char
+		-_c : char
+		+get() : char
+		+peek() : char
+		+unget() : char
+		-_column : int
+		-_fd : int
+		-_lastColumn : int
+		-_line : int
+		+getColumn() : int
+		+getLine() : int
+		-_idx : size_t
+		+{static} bufferSize : static const size_t
+		-moveBackward() : void
+		-moveForward() : void
+	}
+
+	namespace parser::config {
+		class ScannerConfig {
+			+ScannerConfig(std::istream& inputStream)
+			+~ScannerConfig()
+			-_scan : Scanner
+			-_actualToken : Token
+			-_makeToken(ScopedEnum ::TokenKind kind, std::string value) : Token
+			-_makeToken(ScopedEnum ::TokenKind kind, std::string value, int column, int line) : Token
+			+getToken(bool skipNL) : Token
+			+peekToken() : Token
+			-_charIsString(char c) : bool
+		}
+
+		enum ScopedEnum::TokenKind {
+			kColon
+			kComma
+			kEndOfInput
+			kError
+			kIdentifier
+			kLeftBrace
+			kNewLine
+			kRightBrace
+			kSemiColon
+			kString
+		}
+
+		class ScopedEnum {
+		}
+
+		class Token {
+			+kind : ScopedEnum ::TokenKind
+			+column : int
+			+line : int
+			+value : std::string
+		}
+	}
+
+	namespace parser::http {
+		class ScannerHttpRequest {
+			+ScannerHttpRequest(std::istream& inputStream)
+			+~ScannerHttpRequest()
+			-_scan : Scanner
+			-_actualToken : Token
+			-_makeToken(ScopedEnum ::TokenKind kind, std::string value) : Token
+			+getToken(bool skipLWS) : Token
+			+peekToken() : Token
+			-_charIsString(char c) : bool
+			+getChar() : char
+		}
+
+		enum ScopedEnum::TokenKind {
+			kCarriage
+			kColon
+			kComma
+			kEndOfInput
+			kError
+			kLWS
+			kLeftBrace
+			kNewLine
+			kRightBrace
+			kString
+		}
+
+		class ScopedEnum {
+		}
+
+		class Token {
+			+kind : ScopedEnum ::TokenKind
+			+column : int
+			+line : int
+			+value : std::string
+		}
+	}
+}
+
+
+namespace sckt {
+	class Socket {
+		+Socket()
+		+~Socket()
+		+getAddrLen() : addrLen_type {query}
+		+getAddr() : addr_type {query}
+		+setFd(int domain, int type) : bool
+		+getFd() : fd_type {query}
+		-_fd : int
+		-_addrLen : sckt::socklen_t
+		-_addr : struct sockaddr_in
+		+setAddr(int domain, int interface, int port) : void
+		+setAddr(struct sockaddr_in addr) : void
+		+setFd(int fd) : void
+	}
+}
+
+
+
+
+
+
+.AHttpMessage <|- - .HttpRequest
+
+
+.AHttpMessage <|- - .HttpResponse
+
+
+parser.IScanner <|- - parser.Scanner
+
+
+parser.IScanner <|- - parser.ScannerFD
+
+
+
+
+
+
+clnt.Client *- - sckt.Socket
+
+
+.HttpRequest *- - .Uri
+
+
+.HttpResponse *- - .HttpStatus
+
+
+parser.parser::config.ScannerConfig *- - parser.Scanner
+
+
+parser.parser::config.ScannerConfig "2" *- - parser.parser::config.Token
+
+
+parser.parser::http.ScannerHttpRequest *- - parser.Scanner
+
+
+parser.parser::http.ScannerHttpRequest "2" *- - parser.parser::config.Token
+
+
+.Server *- - sckt.Socket
+
+
+.ServerBlock *- - .Host
+
+
+.ServerBlock::Location *- - .Host
+
+
+.ServerBlock::Location *- - .Uri
+
+
+.ServerConfig *- - .ServerBlock
+
+
+.ServerConfig o- - .ServerConfig
+
+
+.ServerHandler *- - .Server
+
+
+parser.parser::config.Token "4" *- - parser.parser::config.ScopedEnum
+
+
+
+
+
+
+
+.HttpStatus +- - .HttpStatus::Code
+
+
+parser.parser::config.ScopedEnum +- - parser.parser::config.ScopedEnum::TokenKind
+
+
+parser.parser::config.ScopedEnum +- - parser.parser::http.ScopedEnum::TokenKind
+
+
+.ServerBlock +- - .ServerBlock::Location
+
+
+.ServerConfig +- - .ServerConfig::SyntaxError
+
+
+.Uri +- - .Uri::SyntaxError
+
+
+
+
+@enduml
+
+PlantUML version 1.2021.9(Sun Jul 25 10:13:56 UTC 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
