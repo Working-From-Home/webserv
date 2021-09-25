@@ -43,6 +43,7 @@ jobs:
     - run: npm install
     - name: npm test
       run: |
+        set -ex
         sudo ./webserv &
         npm run|| true
         npm test || true
