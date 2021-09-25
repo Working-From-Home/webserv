@@ -48,6 +48,7 @@ jobs:
         source ~/.zshrc || true
         which jest || true
         echo $SHELL
+        npm test
     - name: run integration test
       run: |
         sudo ./webserv &
