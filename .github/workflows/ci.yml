@@ -38,21 +38,12 @@ jobs:
     - uses: actions/setup-node@v1
       with:
           node-version: '16'
-    - name: make
       run: make
-    - name: Install dependencies
-      run: |
-        npm ci
-        which jest || true
-        /usr/bin/jest || true
-        source ~/.bashrc || true
-        which jest || true
-        echo $SHELL
-        npm test
-    - name: run integration test
+      run: npm install
+    - name: npm test
       run: |
         sudo ./webserv &
-        jest
+        npm test
 
 
   unit-tests:
