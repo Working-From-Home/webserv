@@ -38,8 +38,8 @@ jobs:
     - uses: actions/setup-node@v1
       with:
           node-version: '16'
-      run: make
-      run: npm install
+    - run: make
+    - run: npm install
     - name: npm test
       run: |
         sudo ./webserv &
