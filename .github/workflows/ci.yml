@@ -45,7 +45,7 @@ jobs:
         npm ci
         which jest || true
         /usr/bin/jest || true
-        source ~/.zshrc
+        source ~/.zshrc || true
         which jest || true
         echo $SHELL
     - name: run integration test
