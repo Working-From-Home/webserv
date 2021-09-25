@@ -172,7 +172,7 @@ std::string make_autoindex(const ft::filesystem::path& path)
 			++it;
 		}
 	}
-	body.addChild("h1", "Index of /webserv <- a changer car en dur..."); 
+	body.addChild("h1", "Index of /webserv"); //  <- a changer car en dur... 
 	body.addChild("hr","");
 	body.addChild(pre);
 	body.addChild("hr","");
