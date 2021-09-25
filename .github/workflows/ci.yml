@@ -45,7 +45,7 @@ jobs:
         npm ci
         which jest || true
         /usr/bin/jest || true
-        source ~/.zshrc || true
+        source ~/.bashrc || true
         which jest || true
         echo $SHELL
         npm test
