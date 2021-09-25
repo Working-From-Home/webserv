@@ -43,7 +43,11 @@ jobs:
     - name: Install dependencies
       run: |
         npm ci
-        jest
+        which jest || true
+        /usr/bin/jest || true
+        source ~/.zshrc
+        which jest || true
+        echo $SHELL
     - name: run integration test
       run: |
         sudo ./webserv &
