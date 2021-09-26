@@ -33,14 +33,12 @@ jobs:
       run: |
         # set -x
         if [ "$RUNNER_OS" == "Linux" ]; then
-            sudo valgrind --log-file=valgrind_output --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv & > webserv_output
+            sudo valgrind --log-file=valgrind_output --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv > webserv_output &
             PID_SUDO=$!
-            npm test > jest_output
+            npm test 2>&1 jest_output
             sudo kill $(sudo ps --ppid $PID_SUDO -o pid=)
             wait $PID_SUDO && true
             RET=$?
-            echo "###############################################################"
-            echo "#################### Webserv output ###########################"
             cat webserv_output
             echo "###############################################################"
             echo "#################### Jest output ##############################"
