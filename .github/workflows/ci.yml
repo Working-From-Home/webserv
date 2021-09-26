@@ -38,7 +38,7 @@ jobs:
             # sudo valgrind --log-file=valgrind_output --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv &
             sudo valgrind ./webserv &
             PID=$!
-            # npm test
+            npm test
             sudo kill -SIGTERM $PID
             wait
             echo '#####################################'
