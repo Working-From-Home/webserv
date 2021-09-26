@@ -39,7 +39,7 @@ jobs:
             PID=$(sudo ps --ppid $! -o pid=) 
             npm test
             sudo kill $PID
-            wait
+            wait $PID
             cat valgrind_output
         elif [ "$RUNNER_OS" == "macOS" ]; then
             MallocStackLoggingNoCompact=1
