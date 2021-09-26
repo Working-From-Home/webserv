@@ -35,13 +35,13 @@ jobs:
         # sudo ./webserv &
         if [ "$RUNNER_OS" == "Linux" ]; then
             sudo valgrind --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv
+            npm test
         elif [ "$RUNNER_OS" == "macOS" ]; then
-            # MallocStackLoggingNoCompact=1
-            # ./build/tests &
-            # leaks ./build/tests
-            :
+            MallocStackLoggingNoCompact=1
+            ./webserv &
+            npm test
+            leaks ./webserv
         fi
-        npm test
         sudo pkill -SIGINT webserv # need to change to -TERM signal
 
   unit-tests:
