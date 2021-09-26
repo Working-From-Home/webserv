@@ -39,7 +39,9 @@ jobs:
             sudo valgrind ./webserv &
             PID=$!
             npm test
+            ps
             sudo kill -SIGTERM $PID
+            ps
             wait
             echo '#####################################'
             # wait $PID || true
