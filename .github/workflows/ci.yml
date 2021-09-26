@@ -47,6 +47,7 @@ jobs:
         fi
         # pkill -SIGINT webserv || true        # || true the time to fix signal... And maybe change and manage TERM signal ?
         sudo kill $PID
+        wait $PID
 
   unit-tests:
     runs-on: ${{ matrix.os }}
