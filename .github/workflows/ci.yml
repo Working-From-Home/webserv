@@ -40,6 +40,9 @@ jobs:
             npm test
             sudo ps -a
             sudo kill -SIGTERM $PID
+            ps
+            ps -a
+            sudo ps
             sudo ps -a
             echo '#####################################'
             # wait $PID || true
