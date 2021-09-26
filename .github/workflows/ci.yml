@@ -35,24 +35,19 @@ jobs:
         # sudo ./webserv &
         PID=
         if [ "$RUNNER_OS" == "Linux" ]; then
-            # sudo valgrind --log-file=valgrind_output --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv &
-            sudo valgrind ./webserv &
+            sudo valgrind --log-file=valgrind_output --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv &
             PID=$(sudo ps --ppid $! -o pid=) 
             npm test
-            sudo ps
-            sudo kill -SIGTERM $PID
-            sudo ps
+            kill $PID
             wait
-            echo '#####################################'
             cat valgrind_output
-            echo $SHELL
         elif [ "$RUNNER_OS" == "macOS" ]; then
             MallocStackLoggingNoCompact=1
             ./webserv &
             PID=$!
             npm test
             leaks webserv
-            sudo kill $PID
+            kill $PID
         fi
         # pkill -SIGINT webserv || true        # || true the time to fix signal... And maybe change and manage TERM signal ?
 
