@@ -31,7 +31,7 @@ jobs:
     - run: npm install
     - name: npm test
       run: |
-        set -x
+        # set -x
         if [ "$RUNNER_OS" == "Linux" ]; then
             sudo valgrind --log-file=valgrind_output --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv & > webserv_output
             PID_SUDO=$!
