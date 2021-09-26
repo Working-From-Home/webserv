@@ -45,7 +45,7 @@ jobs:
             npm test
             leaks webserv
         fi
-        sudo kill -SIGINT $PID || true        # || true the time to fix signal... And maybe change and manage TERM signal ?
+        sudo pkill -SIGINT webserv || true        # || true the time to fix signal... And maybe change and manage TERM signal ?
 
   unit-tests:
     runs-on: ${{ matrix.os }}
