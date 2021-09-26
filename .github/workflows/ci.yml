@@ -36,10 +36,11 @@ jobs:
         PID=
         if [ "$RUNNER_OS" == "Linux" ]; then
             sudo valgrind --log-file=valgrind_output --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv &
-            PID=$(sudo ps --ppid $! -o pid=) 
+            PID_SUDO=$!
+            PID=$(sudo ps --ppid $PID_SUDO -o pid=) 
             npm test
             sudo kill $PID
-            wait $PID
+            wait $PID_SUDO
             cat valgrind_output
         elif [ "$RUNNER_OS" == "macOS" ]; then
             MallocStackLoggingNoCompact=1
