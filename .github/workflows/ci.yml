@@ -38,7 +38,7 @@ jobs:
             sudo valgrind --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv &
             PID=$!
             npm test
-            sudo kill $PID
+            sudo kill -TERM $PID
             #wait $PID
             sleep 40
         elif [ "$RUNNER_OS" == "macOS" ]; then
