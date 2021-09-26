@@ -40,9 +40,10 @@ jobs:
             PID=$(sudo ps --ppid $PID_SUDO -o pid=) 
             npm test
             sudo kill $PID
-            STATUS=$(wait $PID_SUDO)
+            wait $PID_SUDO && true
+            RET=$?
             cat valgrind_output
-            exit $STATUS
+            exit $RET
         elif [ "$RUNNER_OS" == "macOS" ]; then
             MallocStackLoggingNoCompact=1
             ./webserv &
