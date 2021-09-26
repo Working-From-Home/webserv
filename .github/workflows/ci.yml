@@ -33,13 +33,15 @@ jobs:
       run: |
         set -x
         if [ "$RUNNER_OS" == "Linux" ]; then
-            sudo valgrind --log-file=valgrind_output --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv &
+            sudo valgrind --log-file=valgrind_output --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv & > webserv_output
             PID_SUDO=$!
             PID=$(sudo ps --ppid $PID_SUDO -o pid=) 
-            npm test
+            npm test > jest_output
             sudo kill $PID
             wait $PID_SUDO && true
             RET=$?
+            cat webserv_output
+            cat jest_output
             cat valgrind_output
             exit $RET
         elif [ "$RUNNER_OS" == "macOS" ]; then
@@ -74,7 +76,6 @@ jobs:
         os: [ubuntu-latest, macos-latest]
     steps:
     - uses: actions/checkout@v2
-
     - name: Install dependencies
       run: |
         set -x
