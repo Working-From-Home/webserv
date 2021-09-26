@@ -42,7 +42,7 @@ jobs:
             sudo kill $PID
             STATUS=$(wait $PID_SUDO)
             cat valgrind_output
-            exit($STATUS)
+            exit $STATUS
         elif [ "$RUNNER_OS" == "macOS" ]; then
             MallocStackLoggingNoCompact=1
             ./webserv &
