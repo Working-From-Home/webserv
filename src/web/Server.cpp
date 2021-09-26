@@ -76,7 +76,7 @@ void Server::routine()
 	if ((pollStatus = poll(_fds, _nfds, 0)) == -1)
 	{
 		if (ft::make_error_code().value() == ft::errc::interrupted)
-			stop(0);
+			return;
 		else
 			stop(-1);
 	}
