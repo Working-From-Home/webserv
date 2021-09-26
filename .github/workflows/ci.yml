@@ -39,8 +39,14 @@ jobs:
             PID=$!
             npm test
             sudo kill -SIGTERM $PID
-            #wait $PID
+            echo '#####################################'
+            wait $PID || true
+            sudo wait $PID || true
+            sudo waitpid $PID || true
+            waitpid $PID || true
+            echo '#####################################'
             cat valgrind_output
+            echo $SHELL
         elif [ "$RUNNER_OS" == "macOS" ]; then
             MallocStackLoggingNoCompact=1
             ./webserv &
