@@ -40,9 +40,9 @@ jobs:
             MallocStackLoggingNoCompact=1
             ./webserv &
             npm test
-            leaks ./webserv
+            leaks webserv
         fi
-        sudo pkill -SIGINT webserv # need to change to -TERM signal
+        sudo pkill -SIGINT webserv # need to change to TERM signal
 
   unit-tests:
     runs-on: ${{ matrix.os }}
