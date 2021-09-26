@@ -45,7 +45,7 @@ jobs:
             leaks webserv
         fi
         # pkill -SIGINT webserv || true        # || true the time to fix signal... And maybe change and manage TERM signal ?
-        sudo pkill webserv
+        sudo pkill webserv || true
 
   unit-tests:
     runs-on: ${{ matrix.os }}
