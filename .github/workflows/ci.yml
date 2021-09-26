@@ -38,16 +38,17 @@ jobs:
             sudo valgrind --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv &
             PID=$!
             npm test
+            sudo kill $PID
+            sudo waitpid $PID
         elif [ "$RUNNER_OS" == "macOS" ]; then
             MallocStackLoggingNoCompact=1
             ./webserv &
             PID=$!
             npm test
             leaks webserv
+            sudo kill $PID
         fi
         # pkill -SIGINT webserv || true        # || true the time to fix signal... And maybe change and manage TERM signal ?
-        sudo kill $PID
-        sudo wait $PID
 
   unit-tests:
     runs-on: ${{ matrix.os }}
