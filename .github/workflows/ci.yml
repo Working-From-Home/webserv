@@ -34,7 +34,7 @@ jobs:
         set -x
         # sudo ./webserv &
         if [ "$RUNNER_OS" == "Linux" ]; then
-            sudo valgrind --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv
+            sudo valgrind --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv &
             npm test
         elif [ "$RUNNER_OS" == "macOS" ]; then
             MallocStackLoggingNoCompact=1
