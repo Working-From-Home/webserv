@@ -40,10 +40,10 @@ jobs:
             npm test
             sudo kill -SIGTERM $PID
             echo '#####################################'
-            wait $PID || true
-            sudo wait $PID || true
-            sudo waitpid $PID || true
-            waitpid $PID || true
+            # wait $PID || true
+            # sudo wait $PID || true
+            # sudo waitpid $PID || true
+            # waitpid $PID || true
             echo '#####################################'
             cat valgrind_output
             echo $SHELL
