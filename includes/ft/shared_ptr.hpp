@@ -35,7 +35,7 @@ public:
 private:
 	void _clear()
 	{
-		if (*_refCount)
+		// if (*_refCount)
 			--(*_refCount);
 		if (*_refCount == 0)
 		{
