@@ -37,7 +37,7 @@ jobs:
         if [ "$RUNNER_OS" == "Linux" ]; then
             # sudo valgrind --log-file=valgrind_output --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv &
             valgrind ./webserv &
-            PID=$!
+            PID=$(sudo ps --ppid $! -o pid=) 
             npm test
             sudo ps
             sudo kill -SIGTERM $PID
