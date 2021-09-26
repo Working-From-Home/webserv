@@ -35,19 +35,18 @@ jobs:
         if [ "$RUNNER_OS" == "Linux" ]; then
             sudo valgrind --log-file=valgrind_output --leak-check=full --show-leak-kinds=definite,indirect,possible --errors-for-leak-kinds=definite,indirect,possible --error-exitcode=42 ./webserv & > webserv_output
             PID_SUDO=$!
-            PID=$(sudo ps --ppid $PID_SUDO -o pid=) 
             npm test > jest_output
-            sudo kill $PID
+            sudo kill $(sudo ps --ppid $PID_SUDO -o pid=)
             wait $PID_SUDO && true
             RET=$?
-            cat "###############################################################"
-            cat "#################### Webserv output ###########################"
+            echo "###############################################################"
+            echo "#################### Webserv output ###########################"
             cat webserv_output
-            cat "###############################################################"
-            cat "#################### Jest output ##############################"
+            echo "###############################################################"
+            echo "#################### Jest output ##############################"
             cat jest_output
-            cat "###############################################################"
-            cat "#################### Valgrind output ##########################"
+            echo "###############################################################"
+            echo "#################### Valgrind output ##########################"
             cat valgrind_output
             exit $RET
         elif [ "$RUNNER_OS" == "macOS" ]; then
